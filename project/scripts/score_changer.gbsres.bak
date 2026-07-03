@@ -1,0 +1,122 @@
+{
+  "_resourceType": "script",
+  "id": "0b21b214-bade-4b03-8737-ae6e311055b3",
+  "name": "Score_Changer",
+  "description": "Skrypt służący do zmiany punktacji wyświetlanej graczowi",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "1": {
+      "id": "1",
+      "name": "Actor B"
+    }
+  },
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "V0",
+        "choices": 5,
+        "__collapseCase0": true,
+        "__collapseCase1": true,
+        "__collapseCase2": true,
+        "__collapseCase3": true,
+        "__collapseCase4": true,
+        "__collapseCase5": false,
+        "__collapseCase6": false,
+        "__collapseCase7": false,
+        "__collapseCase8": false,
+        "__collapseCase9": false,
+        "__collapseCase10": false,
+        "__collapseCase11": false,
+        "__collapseCase12": false,
+        "__collapseCase13": false,
+        "__collapseCase14": false,
+        "__collapseCase15": false,
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "1",
+              "spriteStateId": "1",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "1f646dea-5a4f-4cf3-ab20-fda6fbb427a7"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "1",
+              "spriteStateId": "2",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "5314a050-18fa-4416-af41-fdbfeba6a1e8"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "1",
+              "spriteStateId": "3",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "d8639973-31c6-4ad0-826a-282d5c685dff"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "1",
+              "spriteStateId": "4",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "7792f72f-69c0-4a14-aa9b-addb2192462e"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "1",
+              "spriteStateId": "5",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "5303c385-e4c4-4a14-ac8a-341a29e246a9"
+          }
+        ],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "20c45be7-498f-47da-956a-ca8519a75462"
+    }
+  ]
+}

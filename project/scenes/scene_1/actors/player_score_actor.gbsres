@@ -1,0 +1,42 @@
+{
+  "_resourceType": "actor",
+  "id": "c8b615cd-424e-454b-a78a-57ef2e9cf655",
+  "name": "Player_Score_Actor",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ce354f7f-5454-4578-9b92-bfe9c7f30ea6",
+  "prefabId": "81dbd9c6-4b8e-45aa-831b-e7b300a2de9a",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_1",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0b21b214-bade-4b03-8737-ae6e311055b3",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$actor[1]$": "$self$"
+      },
+      "id": "baf59ae4-757b-4ebd-92dd-90b00490050a"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 2,
+  "y": 12,
+  "_index": 1
+}

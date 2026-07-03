@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "81dbd9c6-4b8e-45aa-831b-e7b300a2de9a",
+  "name": "Player_Score_Actor",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ce354f7f-5454-4578-9b92-bfe9c7f30ea6",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "_index": 1,
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0b21b214-bade-4b03-8737-ae6e311055b3",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$actor[1]$": "$self$",
+        "__collapse": false
+      },
+      "id": "98e7ea80-f599-4603-acbb-44dfcd1dedfc",
+      "children": {}
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

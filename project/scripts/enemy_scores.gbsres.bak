@@ -1,0 +1,104 @@
+{
+  "_resourceType": "script",
+  "id": "ba5ecb8c-eb82-46c2-9817-c4699ac37998",
+  "name": "Enemy_scores",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_SCRIPT_LOCK",
+      "args": {
+        "__collapse": true
+      },
+      "id": "5485a0c4-e3ae-459e-bd74-32044fe316fb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "enemy scores!"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 0,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "89d4bcf7-2c2a-4160-9169-7dcec4219b48"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "3",
+        "__collapse": true
+      },
+      "id": "30d63d92-4e64-47f7-857b-af785cc7fe13"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "e8f1d765-f3ec-4b59-bcac-29aa88779c0f"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 5
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "24cc8a0c-82b8-468c-b134-8ebdd7f1bf30"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0e3f235c-030c-424d-82b3-6c6f482acb47",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "direction": "right",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "5d5efdb7-c485-4771-8a4f-40db8487d8f7"
+    }
+  ]
+}

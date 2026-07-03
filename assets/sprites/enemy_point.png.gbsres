@@ -1,0 +1,116 @@
+{
+  "_resourceType": "sprite",
+  "id": "fcc54cc6-eaf7-4cb3-9e56-5fee05bd9e81",
+  "name": "enemy_point",
+  "symbol": "sprite_enemy_point",
+  "states": [
+    {
+      "id": "bcad318d-d640-48c1-ae42-69e82871f1d7",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "c7f4807b-b525-4ac1-ba33-adbb56cff423",
+          "frames": [
+            {
+              "id": "15bd9749-fae7-489f-8051-1891eead3bec",
+              "tiles": [
+                {
+                  "id": "8bc6e5e2-4dea-435c-b06c-fef08af4f20e",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cb928ea4-3e85-4833-8591-e49bc1786089",
+          "frames": [
+            {
+              "id": "9090a094-8a89-4e2c-ab81-2ace0b28cf67",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7a21d89f-606a-4124-9a64-7462db2102fc",
+          "frames": [
+            {
+              "id": "c2e08eda-86b4-44c1-b66a-41428d9ee972",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "02f216ec-4eb2-4e14-9e61-1c86e25de53b",
+          "frames": [
+            {
+              "id": "700c6d23-69c9-4f84-ab41-820fa9f955ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "19b1be95-5013-4a80-a778-0055f9aad6de",
+          "frames": [
+            {
+              "id": "d5003dd3-fa5e-4d32-b9cb-4de3657a50fe",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "efd144ff-2a3d-4254-92e5-47e2efeac582",
+          "frames": [
+            {
+              "id": "04ef9df1-3019-4006-a1a0-0457677230d0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "38bc0719-3a01-4b0c-ae03-683fd1971a27",
+          "frames": [
+            {
+              "id": "0278252f-f784-4dc8-855d-00a935c4600e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e5d4e2cb-4804-4027-9ff4-f01dbc63673c",
+          "frames": [
+            {
+              "id": "1b94e947-bb7e-4f16-9c9c-ac770dc15399",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 3,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "enemy_point.png",
+  "width": 32,
+  "height": 32,
+  "checksum": "262159b78d2f11dabfdd556933f161c596bd02f1"
+}

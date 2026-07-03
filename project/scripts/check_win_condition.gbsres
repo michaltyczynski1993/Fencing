@@ -1,0 +1,10 @@
+{
+  "_resourceType": "script",
+  "id": "3651be32-29a2-4328-beee-02afb2fd1f63",
+  "name": "Check_Win_Condition",
+  "description": "Funkcja która sprawdza czy liczba osiągniętych punktów przez stronę zadającą trafienie jest równa liczbie punktów wymaganych aby wygrać walkę",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_10",
+  "script": []
+}

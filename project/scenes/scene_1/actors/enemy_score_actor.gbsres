@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "86b39e4f-914a-4df1-bb98-d59c94d25be0",
+  "name": "Enemy_Score_Actor",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "81dbd9c6-4b8e-45aa-831b-e7b300a2de9a",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {
+    "98e7ea80-f599-4603-acbb-44dfcd1dedfc": {
+      "id": "98e7ea80-f599-4603-acbb-44dfcd1dedfc",
+      "args": {
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "3"
+        }
+      }
+    }
+  },
+  "symbol": "actor_2",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 15,
+  "y": 12,
+  "_index": 2
+}

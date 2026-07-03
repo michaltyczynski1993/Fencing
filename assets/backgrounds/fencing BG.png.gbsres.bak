@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "612d7b79-04c4-4178-a428-3ecc10360349",
+  "name": "fencing BG",
+  "symbol": "bg_fencing_bg",
+  "tileColors": "04140+00!0413+00!0413+",
+  "filename": "fencing BG.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

@@ -1,0 +1,127 @@
+{
+  "_resourceType": "script",
+  "id": "fc3dcf8f-7048-4a0c-b3df-982633326196",
+  "name": "Player_Scores",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    },
+    "1": {
+      "id": "1",
+      "name": "Actor B"
+    }
+  },
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_SCRIPT_LOCK",
+      "args": {
+        "__collapse": true
+      },
+      "id": "a1998feb-c1f3-4791-aa66-92bc02646ce6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "player scores"
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 0,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "8b9d7bba-11d8-44af-b401-e6a640a1870b"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "1",
+        "__collapse": false
+      },
+      "id": "b6c74ed7-40c0-4373-aeeb-ea61449125b5"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0b21b214-bade-4b03-8737-ae6e311055b3",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$actor[0]$": "0",
+        "$actor[1]$": "1",
+        "__collapse": false
+      },
+      "id": "0799ae43-6f85-4638-b108-5bac5c331d9a"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "50c626b0-7d73-4e71-9f86-0c1cbf97ca72"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 5
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "e88ff315-58e7-4fcd-b67c-4cee709e41ad"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0e3f235c-030c-424d-82b3-6c6f482acb47",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "right",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "7f04f53d-2a98-4acb-b59b-cb9e7e888ba0"
+    }
+  ]
+}

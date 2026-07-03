@@ -1,0 +1,37 @@
+{
+  "_resourceType": "script",
+  "id": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
+  "name": "Enemy_Forward",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "movement",
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": -1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "5948bb34-82e9-4f18-b5c9-12d784c5cc3b"
+    }
+  ]
+}

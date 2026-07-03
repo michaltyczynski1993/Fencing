@@ -1,0 +1,21 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Player_State",
+      "symbol": "var_player_state"
+    },
+    {
+      "id": "1",
+      "name": "Player_Score",
+      "symbol": "var_player_score"
+    },
+    {
+      "id": "2",
+      "name": "Enemy_State",
+      "symbol": "var_enemy_state"
+    }
+  ],
+  "constants": []
+}
