@@ -47,7 +47,7 @@
       "args": {
         "variable": "2",
         "choices": 3,
-        "__collapseCase0": true,
+        "__collapseCase0": false,
         "__collapseCase1": true,
         "__collapseCase2": true,
         "__collapseCase3": false,
@@ -64,7 +64,7 @@
         "__collapseCase14": false,
         "__collapseCase15": false,
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true0": [
@@ -73,7 +73,7 @@
             "args": {
               "customEventId": "c3cab2a2-3c9f-4d44-adae-df7c0eae725f",
               "$actor[0]$": "0",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2a45a8aa-2105-43a1-a45d-2ec6c4ea40bb"
           }
