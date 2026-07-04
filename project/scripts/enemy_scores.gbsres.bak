@@ -4,7 +4,16 @@
   "name": "Enemy_scores",
   "description": "",
   "variables": {},
-  "actors": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    },
+    "1": {
+      "id": "1",
+      "name": "Actor B"
+    }
+  },
   "symbol": "script_7",
   "script": [
     {
@@ -47,6 +56,28 @@
         "__collapse": true
       },
       "id": "30d63d92-4e64-47f7-857b-af785cc7fe13"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0b21b214-bade-4b03-8737-ae6e311055b3",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "3"
+        },
+        "$actor[0]$": "0",
+        "$actor[1]$": "1",
+        "__collapse": true
+      },
+      "id": "a5a54518-314a-4d01-a3a0-8edf90e91e83"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "3651be32-29a2-4328-beee-02afb2fd1f63",
+        "__collapse": true
+      },
+      "id": "5f11ed9f-49e1-417e-841f-4b3196ed47cb"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",

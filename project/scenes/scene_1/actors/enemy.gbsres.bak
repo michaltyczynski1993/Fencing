@@ -13,7 +13,9 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "2",
-  "collisionExtraFlags": [],
+  "collisionExtraFlags": [
+    "solid"
+  ],
   "prefabScriptOverrides": {},
   "symbol": "actor_0",
   "script": [
@@ -251,7 +253,7 @@
                 }
               },
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -295,8 +297,9 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "fc3dcf8f-7048-4a0c-b3df-982633326196",
-                    "__collapse": true,
-                    "$actor[0]$": "$self$"
+                    "__collapse": false,
+                    "$actor[0]$": "$self$",
+                    "$actor[1]$": "c8b615cd-424e-454b-a78a-57ef2e9cf655"
                   },
                   "id": "05fd60ac-6dbb-4412-9647-3c94b9714014"
                 }
@@ -341,7 +344,8 @@
                   "args": {
                     "customEventId": "fc3dcf8f-7048-4a0c-b3df-982633326196",
                     "__collapse": false,
-                    "$actor[0]$": "$self$"
+                    "$actor[0]$": "$self$",
+                    "$actor[1]$": "c8b615cd-424e-454b-a78a-57ef2e9cf655"
                   },
                   "id": "b598b4ae-9d5d-4401-b593-db6feaaf7110"
                 }

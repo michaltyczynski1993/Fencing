@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f0cb808f-4239-4502-92ca-615aeecd0292",
+  "name": "Enemy Won Screen",
+  "symbol": "bg_enemy_won_screen",
+  "tileColors": "",
+  "filename": "Enemy Won Screen.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

@@ -15,6 +15,16 @@
       "id": "2",
       "name": "Enemy_State",
       "symbol": "var_enemy_state"
+    },
+    {
+      "id": "3",
+      "name": "Enemy_Score",
+      "symbol": "var_enemy_score"
+    },
+    {
+      "id": "4",
+      "name": "Target_Points",
+      "symbol": "var_target_points"
     }
   ],
   "constants": []

@@ -26,22 +26,30 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_TEXT",
             "args": {
-              "sceneId": "83774eea-435f-4c92-bfef-0f53e753fa97",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2",
+              "text": [
+                "Player Wins!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "2e519641-98dd-4ac8-82ae-9d4e27ce6255"
+            "id": "0e83edf0-977f-43ca-8bfa-9062067cc068"
           }
         ],
         "false": [
@@ -64,22 +72,30 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_SWITCH_SCENE",
+                  "command": "EVENT_TEXT",
                   "args": {
-                    "sceneId": "75936cb7-faba-421c-afdc-16295cc4ee2a",
-                    "x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "direction": "",
-                    "fadeSpeed": "2",
-                    "__collapse": true
+                    "text": [
+                      "Enemy Wins!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
                   },
-                  "id": "806cd34c-c393-4f6f-a7a0-d9370c092f08"
+                  "id": "af822f35-5bb6-4349-b575-2cdc57b56d4e"
                 }
               ],
               "false": []

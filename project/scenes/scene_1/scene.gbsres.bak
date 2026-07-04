@@ -23,8 +23,8 @@
   "collisions": "00154+0f14+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 104,
-  "y": 144,
+  "x": 280,
+  "y": 128,
   "script": [
     {
       "command": "EVENT_RNG_SEED",
@@ -44,6 +44,19 @@
         "__collapse": true
       },
       "id": "c646b932-21f4-45d4-88f4-8d2b9bc8a5be"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "b2ae5505-e392-46fe-b3fb-ae6f9e2ef96e"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -92,9 +105,9 @@
       "args": {
         "variable": "0",
         "choices": 3,
-        "__collapseCase0": false,
-        "__collapseCase1": false,
-        "__collapseCase2": false,
+        "__collapseCase0": true,
+        "__collapseCase1": true,
+        "__collapseCase2": true,
         "__collapseCase3": false,
         "__collapseCase4": false,
         "__collapseCase5": false,
@@ -148,7 +161,8 @@
                   "args": {
                     "customEventId": "ba5ecb8c-eb82-46c2-9817-c4699ac37998",
                     "$actor[0]$": "f0971fd2-28b8-4642-a796-82169c42153b",
-                    "__collapse": true
+                    "__collapse": true,
+                    "$actor[1]$": "86b39e4f-914a-4df1-bb98-d59c94d25be0"
                   },
                   "id": "1f9065d5-f60e-4398-9aac-85825f30b19d"
                 }
@@ -174,7 +188,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -183,7 +197,8 @@
                   "args": {
                     "customEventId": "ba5ecb8c-eb82-46c2-9817-c4699ac37998",
                     "$actor[0]$": "f0971fd2-28b8-4642-a796-82169c42153b",
-                    "__collapse": false
+                    "__collapse": false,
+                    "$actor[1]$": "86b39e4f-914a-4df1-bb98-d59c94d25be0"
                   },
                   "id": "4c8ba3a0-adb2-4b9a-8209-34fca596c49c"
                 }

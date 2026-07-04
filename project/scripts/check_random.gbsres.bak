@@ -48,8 +48,8 @@
         "variable": "2",
         "choices": 3,
         "__collapseCase0": false,
-        "__collapseCase1": true,
-        "__collapseCase2": true,
+        "__collapseCase1": false,
+        "__collapseCase2": false,
         "__collapseCase3": false,
         "__collapseCase4": false,
         "__collapseCase5": false,
@@ -73,7 +73,7 @@
             "args": {
               "customEventId": "c3cab2a2-3c9f-4d44-adae-df7c0eae725f",
               "$actor[0]$": "0",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "2a45a8aa-2105-43a1-a45d-2ec6c4ea40bb"
           }

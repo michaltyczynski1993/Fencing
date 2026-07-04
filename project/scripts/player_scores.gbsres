@@ -67,43 +67,17 @@
         },
         "$actor[0]$": "0",
         "$actor[1]$": "1",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "0799ae43-6f85-4638-b108-5bac5c331d9a"
     },
     {
-      "command": "EVENT_ACTOR_SET_POSITION",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "actorId": "0",
-        "x": {
-          "type": "number",
-          "value": 13
-        },
-        "y": {
-          "type": "number",
-          "value": 17
-        },
-        "__collapse": true,
-        "__comment": true
+        "customEventId": "3651be32-29a2-4328-beee-02afb2fd1f63",
+        "__collapse": false
       },
-      "id": "50c626b0-7d73-4e71-9f86-0c1cbf97ca72"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_POSITION",
-      "args": {
-        "actorId": "player",
-        "x": {
-          "type": "number",
-          "value": 5
-        },
-        "y": {
-          "type": "number",
-          "value": 17
-        },
-        "__collapse": true,
-        "__comment": true
-      },
-      "id": "e88ff315-58e7-4fcd-b67c-4cee709e41ad"
+      "id": "3f9765f0-edd1-47d1-ad21-4b1e54eabbfc"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

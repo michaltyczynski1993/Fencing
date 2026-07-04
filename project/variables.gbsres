@@ -20,6 +20,16 @@
       "id": "3",
       "name": "Enemy_Score",
       "symbol": "var_enemy_score"
+    },
+    {
+      "id": "4",
+      "name": "Target_Points",
+      "symbol": "var_target_points"
+    },
+    {
+      "id": "ba13ea05-07e3-4bea-862c-269cf1efed90__L0",
+      "name": "Choice",
+      "symbol": "var_choice"
     }
   ],
   "constants": []

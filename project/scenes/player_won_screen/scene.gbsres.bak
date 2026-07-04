@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "83774eea-435f-4c92-bfef-0f53e753fa97",
+  "_index": 2,
+  "name": "Player_Won_Screen",
+  "backgroundId": "ea8bb0c9-4a01-478a-a66f-4d4cf890fb8e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 536,
+  "y": 48,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

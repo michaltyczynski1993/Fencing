@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "75936cb7-faba-421c-afdc-16295cc4ee2a",
+  "_index": 1,
+  "name": "Enemy_Won_Screen",
+  "backgroundId": "f0cb808f-4239-4502-92ca-615aeecd0292",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 680,
+  "y": 232,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
