@@ -253,7 +253,7 @@
                 }
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -261,7 +261,7 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "fc3dcf8f-7048-4a0c-b3df-982633326196",
-                    "__collapse": false,
+                    "__collapse": true,
                     "$actor[0]$": "$self$",
                     "$actor[1]$": "c8b615cd-424e-454b-a78a-57ef2e9cf655"
                   },
@@ -297,7 +297,7 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "fc3dcf8f-7048-4a0c-b3df-982633326196",
-                    "__collapse": false,
+                    "__collapse": true,
                     "$actor[0]$": "$self$",
                     "$actor[1]$": "c8b615cd-424e-454b-a78a-57ef2e9cf655"
                   },
@@ -343,7 +343,7 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "fc3dcf8f-7048-4a0c-b3df-982633326196",
-                    "__collapse": false,
+                    "__collapse": true,
                     "$actor[0]$": "$self$",
                     "$actor[1]$": "c8b615cd-424e-454b-a78a-57ef2e9cf655"
                   },

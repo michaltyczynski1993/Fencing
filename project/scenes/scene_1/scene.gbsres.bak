@@ -23,7 +23,7 @@
   "collisions": "00154+0f14+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 280,
+  "x": 352,
   "y": 128,
   "script": [
     {
@@ -44,19 +44,6 @@
         "__collapse": true
       },
       "id": "c646b932-21f4-45d4-88f4-8d2b9bc8a5be"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "4",
-        "value": {
-          "type": "number",
-          "value": 5
-        },
-        "__collapse": false,
-        "__comment": true
-      },
-      "id": "b2ae5505-e392-46fe-b3fb-ae6f9e2ef96e"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -81,7 +68,7 @@
         "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [

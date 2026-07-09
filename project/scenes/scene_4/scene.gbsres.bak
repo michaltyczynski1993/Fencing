@@ -14,8 +14,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 88,
-  "y": 128,
+  "x": 72,
+  "y": 30,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -50,7 +50,7 @@
         "variable": "L0",
         "choices": 3,
         "__collapseCase0": false,
-        "__collapseCase1": false,
+        "__collapseCase1": true,
         "__collapseCase2": false,
         "__collapseCase3": false,
         "__collapseCase4": false,
@@ -65,7 +65,8 @@
         "__collapseCase13": false,
         "__collapseCase14": false,
         "__collapseCase15": false,
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true0": [
@@ -93,8 +94,8 @@
             "args": {
               "variable": "L0",
               "choices": 2,
-              "__collapseCase0": false,
-              "__collapseCase1": false,
+              "__collapseCase0": true,
+              "__collapseCase1": true,
               "__collapseCase2": false,
               "__collapseCase3": false,
               "__collapseCase4": false,
@@ -109,7 +110,8 @@
               "__collapseCase13": false,
               "__collapseCase14": false,
               "__collapseCase15": false,
-              "__collapseElse": false
+              "__collapseElse": true,
+              "__collapse": true
             },
             "children": {
               "true0": [

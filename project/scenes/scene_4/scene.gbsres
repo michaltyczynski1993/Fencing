@@ -3,13 +3,22 @@
   "id": "ba13ea05-07e3-4bea-862c-269cf1efed90",
   "_index": 3,
   "name": "Scene 4",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "f024e550-523c-4413-b0e3-e3305c8829fc",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "default-bg-5",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
@@ -49,8 +58,8 @@
       "args": {
         "variable": "L0",
         "choices": 3,
-        "__collapseCase0": true,
-        "__collapseCase1": false,
+        "__collapseCase0": false,
+        "__collapseCase1": true,
         "__collapseCase2": false,
         "__collapseCase3": false,
         "__collapseCase4": false,
@@ -65,7 +74,8 @@
         "__collapseCase13": false,
         "__collapseCase14": false,
         "__collapseCase15": false,
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true0": [
@@ -109,7 +119,7 @@
               "__collapseCase13": false,
               "__collapseCase14": false,
               "__collapseCase15": false,
-              "__collapseElse": false,
+              "__collapseElse": true,
               "__collapse": true
             },
             "children": {

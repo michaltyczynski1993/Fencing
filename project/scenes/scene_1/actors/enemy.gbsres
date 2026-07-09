@@ -234,7 +234,7 @@
           "type": "number",
           "value": 3
         },
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true0": [

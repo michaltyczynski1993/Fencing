@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f024e550-523c-4413-b0e3-e3305c8829fc",
+  "name": "Menu Screen",
+  "symbol": "bg_menu_screen",
+  "tileColors": "",
+  "filename": "Menu Screen.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
