@@ -38,7 +38,7 @@
       "command": "EVENT_MENU",
       "args": {
         "variable": "L0",
-        "items": 3,
+        "items": 2,
         "option1": "Play",
         "option2": "How to play",
         "option3": "Quit",
@@ -49,7 +49,8 @@
         "option8": "",
         "cancelOnB": true,
         "layout": "dialogue",
-        "__collapse": true
+        "__collapse": true,
+        "cancelOnLastOption": false
       },
       "id": "b6620702-45f5-4792-8fea-099528c96607"
     },
@@ -59,7 +60,7 @@
         "variable": "L0",
         "choices": 3,
         "__collapseCase0": false,
-        "__collapseCase1": true,
+        "__collapseCase1": false,
         "__collapseCase2": false,
         "__collapseCase3": false,
         "__collapseCase4": false,
@@ -74,8 +75,12 @@
         "__collapseCase13": false,
         "__collapseCase14": false,
         "__collapseCase15": false,
-        "__collapseElse": false,
-        "__collapse": false
+        "__collapseElse": true,
+        "__collapse": false,
+        "value2": {
+          "type": "number",
+          "value": 0
+        }
       },
       "children": {
         "true0": [
@@ -94,7 +99,7 @@
               "option8": "",
               "cancelOnB": true,
               "layout": "dialogue",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "7b9691b5-cf11-4ba5-8923-7b9c278eeac2"
           },
@@ -103,8 +108,8 @@
             "args": {
               "variable": "L0",
               "choices": 2,
-              "__collapseCase0": false,
-              "__collapseCase1": false,
+              "__collapseCase0": true,
+              "__collapseCase1": true,
               "__collapseCase2": false,
               "__collapseCase3": false,
               "__collapseCase4": false,
@@ -120,7 +125,7 @@
               "__collapseCase14": false,
               "__collapseCase15": false,
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true0": [
@@ -254,8 +259,72 @@
             "id": "034d4701-e169-418b-8474-fd0a6ee57864"
           }
         ],
-        "true1": [],
-        "true2": [],
+        "true1": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "aaa2876a-25c0-4afc-8dd4-fc8755303477",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "9bdc16db-7055-46bd-84b0-9f3bfecacce0"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 7,
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 1,
+              "speedOut": 1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "adf60156-3734-4b7c-8da9-6fb321153336",
+              "text": [
+                "Press A button\nto select option"
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "__collapse": true
+            },
+            "id": "ffa2cc57-390d-42ef-bed3-46833a2be049"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ba13ea05-07e3-4bea-862c-269cf1efed90",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "6778615a-e6ee-486c-b8c2-aaed8d9b657d"
+          }
+        ],
         "true3": [],
         "true4": [],
         "true5": [],

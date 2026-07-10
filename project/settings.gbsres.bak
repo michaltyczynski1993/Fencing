@@ -99,12 +99,41 @@
   "customControlsSelect": [
     "Shift"
   ],
-  "colorMode": "mixed",
+  "colorMode": "mono",
   "colorCorrection": "default",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
-  "scriptEventDefaultPresets": {},
+  "scriptEventPresets": {
+    "EVENT_TEXT": {
+      "adf60156-3734-4b7c-8da9-6fb321153336": {
+        "id": "adf60156-3734-4b7c-8da9-6fb321153336",
+        "name": "How_To_Play_Preset",
+        "groups": [
+          "layout",
+          "behaviour"
+        ],
+        "args": {
+          "position": "bottom",
+          "minHeight": 4,
+          "maxHeight": 7,
+          "textX": 1,
+          "textY": 1,
+          "textHeight": 7,
+          "clearPrevious": true,
+          "showFrame": true,
+          "speedIn": 1,
+          "speedOut": 1,
+          "closeWhen": "text",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      }
+    }
+  },
+  "scriptEventDefaultPresets": {
+    "EVENT_TEXT": "adf60156-3734-4b7c-8da9-6fb321153336"
+  },
   "runSceneSelectionOnly": false,
   "spriteMode": "8x16",
   "openBuildFolderOnExport": true,

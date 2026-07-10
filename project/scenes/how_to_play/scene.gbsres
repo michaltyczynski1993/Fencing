@@ -1,0 +1,132 @@
+{
+  "_resourceType": "scene",
+  "id": "aaa2876a-25c0-4afc-8dd4-fc8755303477",
+  "_index": 4,
+  "name": "How_To_Play",
+  "backgroundId": "e32e858e-b809-4a57-a639-b7790a90312f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 88.88784980167102,
+  "y": 368.13197221041537,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "84e217c2-94ca-448e-a568-65a53fb1fe13"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "adf60156-3734-4b7c-8da9-6fb321153336",
+        "text": [
+          "You can play \n2 types of duels.\n"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "3e895ddd-4d52-4833-ba55-025dad55cd2b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Short - finishes\nwhen \nfencer achieve\n5 points."
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "adf60156-3734-4b7c-8da9-6fb321153336",
+        "__collapse": true
+      },
+      "id": "a0865063-0908-439e-9d86-5f9bdcd7f7b9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Long - finishes\nwhen \nfencer achieve\n15 points."
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "adf60156-3734-4b7c-8da9-6fb321153336",
+        "__collapse": true
+      },
+      "id": "89acf6ba-97fd-4b9a-8026-e06520647749"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ba13ea05-07e3-4bea-862c-269cf1efed90",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "f7e34fa7-d896-433d-8196-d69786b5bc89"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

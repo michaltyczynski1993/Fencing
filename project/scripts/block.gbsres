@@ -102,7 +102,7 @@
                     "actorId": "$self$",
                     "spriteStateId": "",
                     "loopAnim": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "d1182509-4bce-4cb0-af3e-4750de360ec2"
                 },

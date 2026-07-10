@@ -14,7 +14,8 @@
           "a"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -91,7 +92,7 @@
                 {
                   "command": "EVENT_ACTOR_MOVE_RELATIVE",
                   "args": {
-                    "__section": "options",
+                    "__section": "movement",
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
@@ -119,7 +120,7 @@
                       "type": "number",
                       "value": 1
                     },
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "efb67070-2a5f-41e5-a789-1b93da2c0611"
                 },
@@ -128,7 +129,7 @@
                   "args": {
                     "actorId": "$self$",
                     "spriteStateId": "",
-                    "loopAnim": false,
+                    "loopAnim": true,
                     "__collapse": true
                   },
                   "id": "5658a40f-8ae1-4b4f-9d3d-13ecb78a1e47"

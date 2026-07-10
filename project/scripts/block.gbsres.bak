@@ -33,10 +33,21 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "a",
+                      "b"
+                    ],
+                    "__collapse": true
+                  },
+                  "id": "951975c5-d7cf-4f51-a985-0351c1706183"
+                },
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
@@ -102,7 +113,7 @@
                     "actorId": "$self$",
                     "spriteStateId": "",
                     "loopAnim": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "d1182509-4bce-4cb0-af3e-4750de360ec2"
                 },
@@ -126,6 +137,53 @@
         ]
       },
       "id": "be0b076e-3eb7-48d4-8c79-6c434858625b"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c15008d1-5abc-419b-b64a-1535ff724545",
+              "__collapse": true
+            },
+            "id": "474f1c55-92cc-4b1b-8fd3-e5e9385e0608"
+          }
+        ]
+      },
+      "id": "3da24354-268c-4feb-af80-84e06afe1616"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c15008d1-5abc-419b-b64a-1535ff724545"
+            },
+            "id": "95f6d340-1427-4afc-8fa2-5a007d3d770b"
+          }
+        ]
+      },
+      "id": "482e26c9-b077-46bd-8db6-ca6350eef11f"
     }
   ]
 }
