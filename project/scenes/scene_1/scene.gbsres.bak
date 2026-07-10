@@ -46,6 +46,30 @@
       "id": "c646b932-21f4-45d4-88f4-8d2b9bc8a5be"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "c6b25461-c2f8-4ece-b049-73e780df5b40"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "e2825a77-1556-4937-909a-2c0f7c14999b"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "c15008d1-5abc-419b-b64a-1535ff724545",
@@ -65,10 +89,10 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 0.5,
+        "duration": 0.4,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
