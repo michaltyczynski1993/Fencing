@@ -137,7 +137,7 @@
   "runSceneSelectionOnly": false,
   "spriteMode": "8x16",
   "openBuildFolderOnExport": true,
-  "showRomUsageAfterBuild": false,
+  "showRomUsageAfterBuild": true,
   "romFilename": "",
   "defaultSceneTypeId": "TOPDOWN",
   "disabledSceneTypeIds": [],

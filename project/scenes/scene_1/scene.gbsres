@@ -92,7 +92,7 @@
       "args": {
         "variable": "0",
         "choices": 3,
-        "__collapseCase0": true,
+        "__collapseCase0": false,
         "__collapseCase1": true,
         "__collapseCase2": true,
         "__collapseCase3": false,
@@ -139,7 +139,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -148,7 +148,7 @@
                   "args": {
                     "customEventId": "ba5ecb8c-eb82-46c2-9817-c4699ac37998",
                     "$actor[0]$": "f0971fd2-28b8-4642-a796-82169c42153b",
-                    "__collapse": true,
+                    "__collapse": false,
                     "$actor[1]$": "86b39e4f-914a-4df1-bb98-d59c94d25be0"
                   },
                   "id": "1f9065d5-f60e-4398-9aac-85825f30b19d"
