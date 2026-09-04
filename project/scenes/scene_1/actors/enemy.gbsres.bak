@@ -234,7 +234,7 @@
           "type": "number",
           "value": 3
         },
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true0": [
@@ -317,6 +317,19 @@
               "__collapse": true
             },
             "id": "a089eb4d-8c9d-436c-9ad3-4c969b468fd7"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "7f4977c6-4761-471c-a13b-73c40105f655",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "318efe1b-b7e9-4902-ad1f-c4509500a9fb"
           }
         ],
         "true3": [
@@ -375,7 +388,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 13,
+  "x": 14,
   "y": 16,
   "_index": 0
 }
