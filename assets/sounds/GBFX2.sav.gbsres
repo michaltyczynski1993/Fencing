@@ -1,0 +1,9 @@
+{
+  "_resourceType": "sound",
+  "id": "b450c1c6-9425-4007-ac0e-32f4c5aa9ffa",
+  "name": "GBFX2.sav",
+  "symbol": "sound_gbfx2_sav",
+  "type": "fxhammer",
+  "filename": "GBFX2.sav",
+  "numEffects": 60
+}

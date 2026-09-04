@@ -27,6 +27,13 @@
   "y": 128,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "c0e66aa2-9c86-4c52-ab5f-cd0ddda0d363"
+    },
+    {
       "command": "EVENT_RNG_SEED",
       "args": {
         "__collapse": true
@@ -146,13 +153,13 @@
                 {
                   "command": "EVENT_SOUND_PLAY_EFFECT",
                   "args": {
-                    "type": "b8646ccd-df3f-4ccb-b8ef-ac172f801341",
+                    "type": "c70d2463-4f67-4eb9-aabc-30de9f9cc12e",
                     "priority": "medium",
                     "pitch": 4,
                     "frequency": 200,
                     "duration": 0.5,
                     "wait": true,
-                    "effect": 0,
+                    "effect": 10,
                     "__collapse": true
                   },
                   "id": "dd0ceecc-15b7-46e7-8847-aeb549e8f33c"
@@ -196,13 +203,13 @@
                 {
                   "command": "EVENT_SOUND_PLAY_EFFECT",
                   "args": {
-                    "type": "b8646ccd-df3f-4ccb-b8ef-ac172f801341",
+                    "type": "c70d2463-4f67-4eb9-aabc-30de9f9cc12e",
                     "priority": "medium",
                     "pitch": 4,
                     "frequency": 200,
                     "duration": 0.5,
                     "wait": true,
-                    "effect": 0,
+                    "effect": 10,
                     "__collapse": true
                   },
                   "id": "5ade0e44-e883-4eda-8552-747894992d61"
@@ -234,13 +241,14 @@
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "type": "f8700ba1-cba8-4a73-b0a9-a31b64699194",
+              "type": "c70d2463-4f67-4eb9-aabc-30de9f9cc12e",
               "priority": "medium",
               "pitch": 4,
               "frequency": 200,
               "duration": 0.5,
               "wait": true,
-              "effect": 0
+              "effect": 11,
+              "__collapse": true
             },
             "id": "8146dfd4-846e-4ce1-b5cc-8d777333b699"
           }

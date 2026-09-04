@@ -144,11 +144,25 @@
             "children": {
               "true": [
                 {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "c70d2463-4f67-4eb9-aabc-30de9f9cc12e",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 10,
+                    "__collapse": true
+                  },
+                  "id": "dd0ceecc-15b7-46e7-8847-aeb549e8f33c"
+                },
+                {
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "ba5ecb8c-eb82-46c2-9817-c4699ac37998",
                     "$actor[0]$": "f0971fd2-28b8-4642-a796-82169c42153b",
-                    "__collapse": false,
+                    "__collapse": true,
                     "$actor[1]$": "86b39e4f-914a-4df1-bb98-d59c94d25be0"
                   },
                   "id": "1f9065d5-f60e-4398-9aac-85825f30b19d"
@@ -180,11 +194,25 @@
             "children": {
               "true": [
                 {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "c70d2463-4f67-4eb9-aabc-30de9f9cc12e",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 10,
+                    "__collapse": true
+                  },
+                  "id": "5ade0e44-e883-4eda-8552-747894992d61"
+                },
+                {
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "ba5ecb8c-eb82-46c2-9817-c4699ac37998",
                     "$actor[0]$": "f0971fd2-28b8-4642-a796-82169c42153b",
-                    "__collapse": false,
+                    "__collapse": true,
                     "$actor[1]$": "86b39e4f-914a-4df1-bb98-d59c94d25be0"
                   },
                   "id": "4c8ba3a0-adb2-4b9a-8209-34fca596c49c"
@@ -206,13 +234,14 @@
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "type": "7f4977c6-4761-471c-a13b-73c40105f655",
+              "type": "c70d2463-4f67-4eb9-aabc-30de9f9cc12e",
               "priority": "medium",
               "pitch": 4,
               "frequency": 200,
               "duration": 0.5,
               "wait": true,
-              "effect": 0
+              "effect": 11,
+              "__collapse": true
             },
             "id": "8146dfd4-846e-4ce1-b5cc-8d777333b699"
           }

@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "ba13ea05-07e3-4bea-862c-269cf1efed90",
   "_index": 3,
-  "name": "Main Menu",
+  "name": "Main_Menu",
   "backgroundId": "f024e550-523c-4413-b0e3-e3305c8829fc",
   "tilesetId": "",
   "width": 20,
@@ -24,7 +24,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
   "x": 72,
-  "y": 30,
+  "y": 32,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -76,7 +76,7 @@
         "__collapseCase14": false,
         "__collapseCase15": false,
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "value2": {
           "type": "number",
           "value": 0
@@ -341,6 +341,14 @@
         "false": []
       },
       "id": "ce992a22-784f-47f1-9fc2-3f59df505ff0"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a4a2b70d-40b1-4921-b507-7489b7d5eedb",
+        "__collapse": false
+      },
+      "id": "530370d4-8ee8-46c4-b09d-4966e4f3e805"
     }
   ],
   "playerHit1Script": [],
