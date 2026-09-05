@@ -45,7 +45,7 @@
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
               "__section": "projectile",
-              "spriteSheetId": "7b5df21b-63e5-424f-b45c-7edc3e31b57a",
+              "spriteSheetId": "fcc54cc6-eaf7-4cb3-9e56-5fee05bd9e81",
               "spriteStateId": "",
               "actorId": "0",
               "x": 0,
@@ -56,16 +56,17 @@
               "angle": 0,
               "angleVariable": "0",
               "targetActorId": "$self$",
-              "speed": 4,
+              "speed": 2,
               "animSpeed": 255,
-              "lifeTime": 0.04,
+              "lifeTime": 0.1,
               "initialOffset": 0,
               "loopAnim": true,
               "destroyOnHit": true,
               "collisionGroup": "1",
               "collisionMask": [
                 "player"
-              ]
+              ],
+              "__collapse": true
             },
             "id": "082dfd0b-faa7-4bce-a2e3-54c091a77417"
           },
@@ -94,7 +95,7 @@
             "args": {
               "time": {
                 "type": "number",
-                "value": 0.1
+                "value": 0.2
               },
               "frames": {
                 "type": "number",

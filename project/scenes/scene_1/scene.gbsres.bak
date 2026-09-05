@@ -27,6 +27,13 @@
   "y": 128,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "c0e66aa2-9c86-4c52-ab5f-cd0ddda0d363"
+    },
+    {
       "command": "EVENT_RNG_SEED",
       "args": {
         "__collapse": true
