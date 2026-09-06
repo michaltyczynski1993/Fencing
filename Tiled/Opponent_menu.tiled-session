@@ -1,0 +1,37 @@
+{
+    "activeFile": "Opponent Menu.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "Wszystkie pliki (*)",
+    "fileStates": {
+        "Opponent Menu.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 103.99999999999997,
+                "y": 124.33333333333331
+            }
+        },
+        "Opponent Menu.tmx#Choose opponent- menu": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "/home/michaltyczynski/Dokumenty/Fencing/Libre Sprite Asseets",
+    "map.height": 144,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 160,
+    "openFiles": [
+        "Opponent Menu.tmx"
+    ],
+    "project": "Opponent_menu.tiled-project",
+    "recentFiles": [
+        "Opponent Menu.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}

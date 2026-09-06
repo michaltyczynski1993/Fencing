@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "788282cb-24c1-40b5-af33-ed84c7533337",
+  "_index": 5,
+  "name": "Opponent_Menu",
+  "backgroundId": "d7122603-8a51-4f5b-996d-2329f527f668",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "default-bg-1",
+    "efbc1077-1198-48e7-ba5b-cb546c0d016f",
+    "84c4891a-3f25-4360-8372-91673d90ab29",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 376,
+  "y": 368,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

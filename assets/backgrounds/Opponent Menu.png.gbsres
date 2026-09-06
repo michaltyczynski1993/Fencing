@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d7122603-8a51-4f5b-996d-2329f527f668",
+  "name": "Opponent Menu",
+  "symbol": "bg_opponent_menu_0",
+  "tileColors": "0715+015+07!005+07!025+073+015+07!005+07!025+073+015+07!005+07!025+0711a+",
+  "filename": "Opponent Menu.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
