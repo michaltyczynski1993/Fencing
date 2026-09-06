@@ -55,7 +55,7 @@
     },
     {
       "id": "plat_walk_vel",
-      "value": 4259
+      "value": 1720
     },
     {
       "id": "plat_walk_acc",
@@ -63,11 +63,23 @@
     },
     {
       "id": "PROJECTILES_COLLISION_SPREAD",
-      "value": "SPREAD_2"
+      "value": "EVERY_FRAME"
     },
     {
       "id": "plat_turn_acc",
+      "value": 819
+    },
+    {
+      "id": "plat_min_vel",
       "value": 409
+    },
+    {
+      "id": "plat_dec",
+      "value": 122
+    },
+    {
+      "id": "FEAT_PLATFORM_JUMP",
+      "value": 0
     }
   ]
 }

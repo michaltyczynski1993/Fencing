@@ -73,7 +73,7 @@
             "args": {
               "customEventId": "c3cab2a2-3c9f-4d44-adae-df7c0eae725f",
               "$actor[0]$": "0",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2a45a8aa-2105-43a1-a45d-2ec6c4ea40bb"
           }
@@ -84,7 +84,7 @@
             "args": {
               "customEventId": "768360fa-d2da-4760-be94-fe92241137be",
               "$actor[0]$": "0",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "b8f09f88-6be0-48f3-8399-6937bbd7824d"
           }
@@ -103,7 +103,7 @@
             "args": {
               "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
               "$actor[0]$": "0",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "65c668b2-790c-4a61-906f-0784a22ac57c"
           }

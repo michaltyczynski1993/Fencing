@@ -1,0 +1,24 @@
+{
+  "_resourceType": "trigger",
+  "id": "4f427dd6-9031-4c8a-afa1-e63648c43915",
+  "name": "Player_Endline",
+  "prefabId": "",
+  "x": 19,
+  "y": 15,
+  "symbol": "trigger_8",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "fc3dcf8f-7048-4a0c-b3df-982633326196",
+        "$actor[1]$": "c8b615cd-424e-454b-a78a-57ef2e9cf655"
+      },
+      "id": "fc300b52-6318-43d0-8019-f8b687ff1dcf"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

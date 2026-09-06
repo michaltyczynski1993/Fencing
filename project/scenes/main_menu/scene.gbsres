@@ -84,7 +84,7 @@
         "__collapseCase14": false,
         "__collapseCase15": false,
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "value2": {
           "type": "number",
           "value": 0
@@ -116,8 +116,8 @@
             "args": {
               "variable": "L0",
               "choices": 2,
-              "__collapseCase0": true,
-              "__collapseCase1": true,
+              "__collapseCase0": false,
+              "__collapseCase1": false,
               "__collapseCase2": false,
               "__collapseCase3": false,
               "__collapseCase4": false,
@@ -133,7 +133,7 @@
               "__collapseCase14": false,
               "__collapseCase15": false,
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true0": [
@@ -176,18 +176,18 @@
                 {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "0e3f235c-030c-424d-82b3-6c6f482acb47",
+                    "sceneId": "788282cb-24c1-40b5-af33-ed84c7533337",
                     "x": {
                       "type": "number",
-                      "value": 6
+                      "value": 10
                     },
                     "y": {
                       "type": "number",
-                      "value": 16
+                      "value": 9
                     },
-                    "direction": "",
+                    "direction": "left",
                     "fadeSpeed": "2",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "7da01e6e-d9ed-4647-8061-f6d7594b75f6"
                 }
@@ -232,18 +232,18 @@
                 {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "0e3f235c-030c-424d-82b3-6c6f482acb47",
+                    "sceneId": "788282cb-24c1-40b5-af33-ed84c7533337",
                     "x": {
                       "type": "number",
-                      "value": 6
+                      "value": 10
                     },
                     "y": {
                       "type": "number",
-                      "value": 16
+                      "value": 9
                     },
-                    "direction": "",
+                    "direction": "left",
                     "fadeSpeed": "2",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "fd842224-615e-40bd-8cc7-611b0a32b839"
                 }
@@ -328,7 +328,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": 1
+              "fadeSpeed": 1,
+              "__collapse": true
             },
             "id": "6778615a-e6ee-486c-b8c2-aaed8d9b657d"
           }

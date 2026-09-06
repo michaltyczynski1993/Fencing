@@ -27,6 +27,14 @@
   "y": 32,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a4a2b70d-40b1-4921-b507-7489b7d5eedb",
+        "__collapse": true
+      },
+      "id": "530370d4-8ee8-46c4-b09d-4966e4f3e805"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "player",
@@ -76,7 +84,7 @@
         "__collapseCase14": false,
         "__collapseCase15": false,
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "value2": {
           "type": "number",
           "value": 0
@@ -108,7 +116,7 @@
             "args": {
               "variable": "L0",
               "choices": 2,
-              "__collapseCase0": true,
+              "__collapseCase0": false,
               "__collapseCase1": true,
               "__collapseCase2": false,
               "__collapseCase3": false,
@@ -125,7 +133,7 @@
               "__collapseCase14": false,
               "__collapseCase15": false,
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true0": [
@@ -341,14 +349,6 @@
         "false": []
       },
       "id": "ce992a22-784f-47f1-9fc2-3f59df505ff0"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "a4a2b70d-40b1-4921-b507-7489b7d5eedb",
-        "__collapse": false
-      },
-      "id": "530370d4-8ee8-46c4-b09d-4966e4f3e805"
     }
   ],
   "playerHit1Script": [],

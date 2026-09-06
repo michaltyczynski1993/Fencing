@@ -5,15 +5,15 @@
     "file.lastUsedOpenFilter": "Wszystkie pliki (*)",
     "fileStates": {
         "Opponent Menu.tmx": {
-            "scale": 3,
+            "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 103.99999999999997,
-                "y": 124.33333333333331
+                "x": 88.75,
+                "y": 105
             }
         },
         "Opponent Menu.tmx#Choose opponent- menu": {
-            "scaleInDock": 1
+            "scaleInDock": 3
         }
     },
     "last.imagePath": "/home/michaltyczynski/Dokumenty/Fencing/Libre Sprite Asseets",
