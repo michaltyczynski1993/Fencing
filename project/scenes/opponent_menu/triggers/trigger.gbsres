@@ -11,6 +11,20 @@
   "height": 3,
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "c70d2463-4f67-4eb9-aabc-30de9f9cc12e",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 2,
+        "__collapse": true
+      },
+      "id": "ff270ea6-e1e7-4148-b411-abf1541f3efc"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "0e3f235c-030c-424d-82b3-6c6f482acb47",
@@ -23,7 +37,8 @@
           "value": 16
         },
         "direction": "right",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       },
       "id": "89e552d3-f4ec-4b69-8ece-8c4095865269"
     }

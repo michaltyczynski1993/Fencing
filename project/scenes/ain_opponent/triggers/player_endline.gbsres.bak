@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "6742b246-cb62-4146-a180-cf7c9daf3f10",
+  "id": "be75d0e6-5fff-465b-964e-2f550fea5a32",
   "name": "Player_Endline",
   "prefabId": "",
   "x": 0,
   "y": 15,
-  "symbol": "trigger_7",
+  "symbol": "trigger_0",
   "prefabScriptOverrides": {},
   "width": 1,
   "height": 3,
@@ -18,7 +18,7 @@
         "$actor[1]$": "86b39e4f-914a-4df1-bb98-d59c94d25be0",
         "__collapse": true
       },
-      "id": "caf982dc-3139-410c-9ab8-47e179ba7280"
+      "id": "73c3d3eb-2e21-4af7-9589-67235feed687"
     }
   ],
   "leaveScript": [],

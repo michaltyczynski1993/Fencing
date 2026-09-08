@@ -23,8 +23,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 712,
-  "y": 208,
+  "x": 872,
+  "y": 216,
   "script": [
     {
       "command": "EVENT_SET_TIMER_SCRIPT",

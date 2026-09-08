@@ -6,14 +6,14 @@
     "fileStates": {
         "Opponent Menu.tmx": {
             "scale": 4,
-            "selectedLayer": 1,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 88.75,
-                "y": 105
+                "x": 101.25,
+                "y": 85.5
             }
         },
         "Opponent Menu.tmx#Choose opponent- menu": {
-            "scaleInDock": 3
+            "scaleInDock": 2
         }
     },
     "last.imagePath": "/home/michaltyczynski/Dokumenty/Fencing/Libre Sprite Asseets",

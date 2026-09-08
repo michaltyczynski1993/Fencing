@@ -1,0 +1,65 @@
+{
+  "_resourceType": "script",
+  "id": "6a3308d2-1720-4e34-bbed-544f69b2c369",
+  "name": "Pause_Game",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "c70d2463-4f67-4eb9-aabc-30de9f9cc12e",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 3,
+              "__collapse": true
+            },
+            "id": "34c6cc87-dc40-4106-939d-0cfa083f736f"
+          },
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "2aa4804b-d36c-44f6-906c-915665ce7d8e"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "939480ee-e13e-4ec7-a9c9-431efe4230a8",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "right",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "e6d1a3d9-a5db-4761-88f3-429a996906fd"
+          }
+        ]
+      },
+      "id": "bf5d58d4-451c-4778-a0b3-42c598c9b3ad"
+    }
+  ]
+}

@@ -29,7 +29,7 @@
         "text": [
           "enemy scores!"
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -45,9 +45,17 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": true,
+        "__comment": false
       },
       "id": "89d4bcf7-2c2a-4160-9169-7dcec4219b48"
+    },
+    {
+      "command": "EVENT_HIDE_SPRITES",
+      "args": {
+        "__collapse": true
+      },
+      "id": "5caad259-6eff-40da-b057-9733c13d2a95"
     },
     {
       "command": "EVENT_INC_VALUE",
@@ -78,24 +86,6 @@
         "__collapse": true
       },
       "id": "5f11ed9f-49e1-417e-841f-4b3196ed47cb"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "0e3f235c-030c-424d-82b3-6c6f482acb47",
-        "x": {
-          "type": "number",
-          "value": 6
-        },
-        "y": {
-          "type": "number",
-          "value": 16
-        },
-        "direction": "right",
-        "fadeSpeed": "2",
-        "__collapse": true
-      },
-      "id": "5d5efdb7-c485-4771-8a4f-40db8487d8f7"
     }
   ]
 }

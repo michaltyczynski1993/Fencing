@@ -27,6 +27,13 @@
   "y": 30,
   "script": [
     {
+      "command": "EVENT_SHOW_SPRITES",
+      "args": {
+        "__collapse": true
+      },
+      "id": "879d67b7-281a-42ae-8df9-2a187cd743c6"
+    },
+    {
       "command": "EVENT_MUSIC_STOP",
       "args": {
         "__collapse": true
@@ -91,6 +98,14 @@
         ]
       },
       "id": "1a79b9e0-c159-4522-a293-e42cf1218fb3"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6a3308d2-1720-4e34-bbed-544f69b2c369",
+        "__collapse": true
+      },
+      "id": "10041c36-362e-4c49-adba-67aab775ba3f"
     }
   ],
   "playerHit1Script": [
@@ -127,7 +142,8 @@
         "value2": {
           "type": "number",
           "value": 2
-        }
+        },
+        "__collapse": false
       },
       "children": {
         "true0": [
@@ -173,6 +189,24 @@
                     "$actor[1]$": "86b39e4f-914a-4df1-bb98-d59c94d25be0"
                   },
                   "id": "1f9065d5-f60e-4398-9aac-85825f30b19d"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "0e3f235c-030c-424d-82b3-6c6f482acb47",
+                    "x": {
+                      "type": "number",
+                      "value": 6
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "direction": "right",
+                    "fadeSpeed": "2",
+                    "__collapse": true
+                  },
+                  "id": "609301fd-47d2-4515-967b-c5efc5cfd526"
                 }
               ],
               "false": []
@@ -223,6 +257,24 @@
                     "$actor[1]$": "86b39e4f-914a-4df1-bb98-d59c94d25be0"
                   },
                   "id": "4c8ba3a0-adb2-4b9a-8209-34fca596c49c"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "0e3f235c-030c-424d-82b3-6c6f482acb47",
+                    "x": {
+                      "type": "number",
+                      "value": 6
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "direction": "right",
+                    "fadeSpeed": "2",
+                    "__collapse": true
+                  },
+                  "id": "269b09cc-75d1-4ab5-831f-3e36f0fb5351"
                 }
               ],
               "false": []
@@ -408,5 +460,5 @@
   ],
   "playerHit3Script": [],
   "playerSpriteSheetId": "bdd73c74-ef56-442d-965f-0c8874a7a5ac",
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": false
 }

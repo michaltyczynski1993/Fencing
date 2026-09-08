@@ -1,24 +1,28 @@
 {
   "_resourceType": "trigger",
-  "id": "9f9ea0ec-2931-47cf-8868-9d22511876e9",
-  "name": "Player_Endline",
+  "id": "30c42f16-ee06-4339-9f88-49ce9b471c4c",
+  "name": "",
   "prefabId": "",
-  "x": 0,
-  "y": 15,
-  "symbol": "trigger_9",
+  "x": 7,
+  "y": 1,
+  "symbol": "trigger_11",
   "prefabScriptOverrides": {},
-  "width": 1,
+  "width": 5,
   "height": 3,
   "script": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "customEventId": "ba5ecb8c-eb82-46c2-9817-c4699ac37998",
-        "$actor[0]$": "f0971fd2-28b8-4642-a796-82169c42153b",
-        "$actor[1]$": "86b39e4f-914a-4df1-bb98-d59c94d25be0",
+        "type": "c70d2463-4f67-4eb9-aabc-30de9f9cc12e",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 2,
         "__collapse": true
       },
-      "id": "41552fd4-71e2-4526-aea6-dc74c9b539ee"
+      "id": "31ac7d66-7b4b-403a-829a-f2f2227301bd"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -34,11 +38,11 @@
         },
         "direction": "right",
         "fadeSpeed": "2",
-        "__collapse": false
+        "__collapse": true
       },
-      "id": "2374ccd4-6003-45e3-9483-01fb18de774a"
+      "id": "3297c22f-8d58-4a5a-a792-4e73f9f7d85d"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 1
 }

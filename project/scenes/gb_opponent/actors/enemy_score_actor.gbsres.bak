@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "e9036542-932b-46cc-b863-614cd4b291bd",
+  "id": "e5622f8e-190a-4cdf-abc7-f2646228cf97",
   "name": "Enemy_Score_Actor",
   "frame": 0,
   "animate": false,
@@ -25,7 +25,7 @@
       }
     }
   },
-  "symbol": "actor_8",
+  "symbol": "actor_5",
   "script": [],
   "startScript": [],
   "updateScript": [],
