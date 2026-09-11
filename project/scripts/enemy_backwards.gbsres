@@ -1,16 +1,22 @@
 {
   "_resourceType": "script",
-  "id": "adbf9422-557b-45de-99b2-603ad2a19346",
-  "name": "Enemy_GB_Forward",
-  "description": "",
-  "variables": {},
+  "id": "c1109bfe-1df8-40f0-911b-e58f13e4b0ce",
+  "name": "Enemy_Backwards",
+  "description": "Script to move backwards [used in GB opponent]",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "X_move_value",
+      "passByReference": true
+    }
+  },
   "actors": {
     "0": {
       "id": "0",
       "name": "Actor A"
     }
   },
-  "symbol": "script_13",
+  "symbol": "script_14",
   "script": [
     {
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -18,8 +24,8 @@
         "__section": "movement",
         "actorId": "0",
         "x": {
-          "type": "number",
-          "value": -1
+          "type": "variable",
+          "value": "V0"
         },
         "y": {
           "type": "number",
@@ -31,7 +37,7 @@
         "lockDirection": [],
         "moveType": "horizontal"
       },
-      "id": "1d756a1d-e16f-4406-9a22-1dd3ed85f87a"
+      "id": "f969f533-fa06-46cd-a072-034e53312128"
     }
   ]
 }

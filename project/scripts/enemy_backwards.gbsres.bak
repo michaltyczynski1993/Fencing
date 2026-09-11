@@ -1,13 +1,19 @@
 {
   "_resourceType": "script",
   "id": "c1109bfe-1df8-40f0-911b-e58f13e4b0ce",
-  "name": "Enemy_Backwards_GB",
+  "name": "Enemy_Backwards",
   "description": "Script to move backwards [used in GB opponent]",
-  "variables": {},
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
   "actors": {
     "0": {
       "id": "0",
-      "name": "Actor A"
+      "name": "X_move_value"
     }
   },
   "symbol": "script_14",
@@ -18,8 +24,8 @@
         "__section": "movement",
         "actorId": "0",
         "x": {
-          "type": "number",
-          "value": 1
+          "type": "variable",
+          "value": "V0"
         },
         "y": {
           "type": "number",

@@ -23,7 +23,7 @@
         "minValue": 1,
         "maxValue": 2,
         "clamp": false,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "ae86986d-f392-494d-af3a-06f61d0886bf"
     },
@@ -87,9 +87,9 @@
                   "args": {
                     "customEventId": "c3cab2a2-3c9f-4d44-adae-df7c0eae725f",
                     "$actor[0]$": "0",
-                    "__collapse": true
+                    "__collapse": false
                   },
-                  "id": "6c60d3c4-0973-47b5-8934-62a1ebb92fee"
+                  "id": "5f9e2e9c-902e-4dd9-81da-55b967a166a6"
                 }
               ],
               "false": [
@@ -98,7 +98,11 @@
                   "args": {
                     "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
                     "$actor[0]$": "0",
-                    "__collapse": true
+                    "__collapse": false,
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": -3
+                    }
                   },
                   "id": "65c668b2-790c-4a61-906f-0784a22ac57c"
                 },
@@ -109,7 +113,7 @@
                     "$actor[0]$": "0",
                     "__collapse": true
                   },
-                  "id": "2a45a8aa-2105-43a1-a45d-2ec6c4ea40bb"
+                  "id": "84ccf557-5448-4aa5-b464-317356336623"
                 }
               ]
             },
@@ -137,10 +141,9 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "c3cab2a2-3c9f-4d44-adae-df7c0eae725f",
-                    "$actor[0]$": "0",
-                    "__collapse": true
+                    "$actor[0]$": "0"
                   },
-                  "id": "bceacb2c-e91c-4d98-83f6-cda4907b0650"
+                  "id": "098d4c81-034e-471f-ae91-60fe03ff7a83"
                 }
               ],
               "false": [
@@ -149,7 +152,7 @@
                   "args": {
                     "customEventId": "768360fa-d2da-4760-be94-fe92241137be",
                     "$actor[0]$": "0",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "b8f09f88-6be0-48f3-8399-6937bbd7824d"
                 }

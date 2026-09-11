@@ -30,6 +30,21 @@
       "id": "ba13ea05-07e3-4bea-862c-269cf1efed90__L0",
       "name": "Choice",
       "symbol": "var_choice_0"
+    },
+    {
+      "id": "939480ee-e13e-4ec7-a9c9-431efe4230a8__L0",
+      "name": "Choice",
+      "symbol": "var_choice"
+    },
+    {
+      "id": "0e3f235c-030c-424d-82b3-6c6f482acb47__L0",
+      "name": "Opponent_Attack_Wait_Duration",
+      "symbol": "var_opponent_attack_wait_du"
+    },
+    {
+      "id": "5",
+      "name": "Opponent_Attack_Wait_Duration",
+      "symbol": "var_opponent_attack_wait_du_0"
     }
   ],
   "constants": []

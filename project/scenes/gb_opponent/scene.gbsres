@@ -24,7 +24,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_0",
   "x": 456,
-  "y": 208,
+  "y": 224,
   "script": [
     {
       "command": "EVENT_SHOW_SPRITES",

@@ -80,7 +80,8 @@
                 "type": "number",
                 "value": 16
               },
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -88,8 +89,12 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
-                    "__collapse": false,
-                    "$actor[0]$": "0"
+                    "__collapse": true,
+                    "$actor[0]$": "0",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": -3
+                    }
                   },
                   "id": "1347e306-82ba-4cf1-a240-5c11565230cf"
                 }
@@ -98,11 +103,15 @@
                 {
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
-                    "customEventId": "adbf9422-557b-45de-99b2-603ad2a19346",
-                    "__collapse": true,
-                    "$actor[0]$": "0"
+                    "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
+                    "__collapse": false,
+                    "$actor[0]$": "0",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": -1
+                    }
                   },
-                  "id": "c5f78da3-4500-48b2-a2ff-cfae4a926f07"
+                  "id": "615a4ab2-aeea-4d20-b684-873bf1cc7009"
                 },
                 {
                   "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -129,8 +138,8 @@
                 "value": 2
               },
               "otherActorId": "$self$",
-              "__collapseElse": true,
-              "__collapse": true
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -146,7 +155,8 @@
                       "type": "number",
                       "value": 16
                     },
-                    "__collapseElse": true
+                    "__collapseElse": false,
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -197,7 +207,11 @@
                         "args": {
                           "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
                           "$actor[0]$": "0",
-                          "__collapse": true
+                          "__collapse": true,
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": -3
+                          }
                         },
                         "id": "166f38cd-7b23-4da3-bacb-f7420d6fcbff"
                       }
@@ -208,7 +222,11 @@
                         "args": {
                           "customEventId": "c1109bfe-1df8-40f0-911b-e58f13e4b0ce",
                           "$actor[0]$": "0",
-                          "__collapse": true
+                          "__collapse": true,
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 1
+                          }
                         },
                         "id": "30eaced5-30af-4488-bdf0-0bd7e9608c28"
                       }

@@ -3,7 +3,7 @@
   "id": "612d7b79-04c4-4178-a428-3ecc10360349",
   "name": "fencing BG",
   "symbol": "bg_fencing_bg",
-  "tileColors": "04140+00!0413+00!0413+",
+  "tileColors": "0013e+04!0029+",
   "filename": "fencing BG.png",
   "width": 20,
   "height": 18,

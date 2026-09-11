@@ -90,10 +90,9 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "b7a4ebdf-2334-43e2-a36a-d09ae96a4aee",
-              "__collapse": false,
               "$actor[0]$": "f0971fd2-28b8-4642-a796-82169c42153b"
             },
-            "id": "062b41fe-850a-4765-adf2-3f5cbd5ba17a"
+            "id": "7ece7773-5eb4-4e9d-9591-ad7bf1f69c53"
           }
         ]
       },
@@ -103,7 +102,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "6a3308d2-1720-4e34-bbed-544f69b2c369",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "10041c36-362e-4c49-adba-67aab775ba3f"
     }

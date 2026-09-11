@@ -49,13 +49,22 @@
           "Select an\nopponent by\ntheir country."
         ],
         "__section": "text",
-        "avatarId": ""
+        "avatarId": "",
+        "__collapse": true
       },
       "id": "5bab72b6-509f-4840-8989-1518c8858fbf"
+    },
+    {
+      "command": "EVENT_SHOW_SPRITES",
+      "args": {
+        "__collapse": true
+      },
+      "id": "683fc676-7b14-4d0b-996f-7198c7bc3338"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "autoFadeEventCollapse": true
 }

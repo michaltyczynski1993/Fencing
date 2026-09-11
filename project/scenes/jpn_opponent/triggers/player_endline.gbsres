@@ -1,0 +1,44 @@
+{
+  "_resourceType": "trigger",
+  "id": "8e2a54c6-2446-4b17-a9ec-2a3aeff8c183",
+  "name": "Player_Endline",
+  "prefabId": "",
+  "x": 0,
+  "y": 15,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ba5ecb8c-eb82-46c2-9817-c4699ac37998",
+        "$actor[0]$": "f0971fd2-28b8-4642-a796-82169c42153b",
+        "$actor[1]$": "86b39e4f-914a-4df1-bb98-d59c94d25be0",
+        "__collapse": true
+      },
+      "id": "abc5b65d-bd3c-456f-9017-2d412f003259"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f558455a-8913-4014-90d7-8244c3ea6be5",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "direction": "right",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "fada9c48-7cf2-4093-8aea-880411b3c282"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

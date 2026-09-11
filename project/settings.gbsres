@@ -138,7 +138,7 @@
   "spriteMode": "8x16",
   "openBuildFolderOnExport": true,
   "showRomUsageAfterBuild": true,
-  "romFilename": "fence_it.gb",
+  "romFilename": "fence_it",
   "defaultSceneTypeId": "TOPDOWN",
   "disabledSceneTypeIds": [],
   "autoTileFlipEnabled": true,

@@ -3,7 +3,13 @@
   "id": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
   "name": "Enemy_Forward",
   "description": "",
-  "variables": {},
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "X_move_value",
+      "passByReference": true
+    }
+  },
   "actors": {
     "0": {
       "id": "0",
@@ -18,8 +24,8 @@
         "__section": "movement",
         "actorId": "0",
         "x": {
-          "type": "number",
-          "value": -3
+          "type": "variable",
+          "value": "V0"
         },
         "y": {
           "type": "number",
