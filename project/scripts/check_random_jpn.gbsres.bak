@@ -64,7 +64,7 @@
         "__collapseCase14": false,
         "__collapseCase15": false,
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true0": [
@@ -224,7 +224,7 @@
                         "args": {
                           "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
                           "$actor[0]$": "0",
-                          "__collapse": true,
+                          "__collapse": false,
                           "$variable[V0]$": {
                             "type": "number",
                             "value": -2
@@ -239,7 +239,7 @@
                         "args": {
                           "customEventId": "c1109bfe-1df8-40f0-911b-e58f13e4b0ce",
                           "$actor[0]$": "0",
-                          "__collapse": true,
+                          "__collapse": false,
                           "$variable[V0]$": {
                             "type": "number",
                             "value": 1

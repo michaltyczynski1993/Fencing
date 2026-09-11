@@ -79,7 +79,7 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 0.2,
+        "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
         "__collapse": false,
@@ -193,7 +193,7 @@
                 {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "f558455a-8913-4014-90d7-8244c3ea6be5",
+                    "sceneId": "69552058-8ad8-4454-ad85-e4e2f9841030",
                     "x": {
                       "type": "number",
                       "value": 6
@@ -204,7 +204,7 @@
                     },
                     "direction": "right",
                     "fadeSpeed": 2,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "b77ab93f-8365-45fb-947c-d1b34167cfea"
                 }
@@ -261,7 +261,7 @@
                 {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "f558455a-8913-4014-90d7-8244c3ea6be5",
+                    "sceneId": "69552058-8ad8-4454-ad85-e4e2f9841030",
                     "x": {
                       "type": "number",
                       "value": 6
@@ -272,7 +272,7 @@
                     },
                     "direction": "right",
                     "fadeSpeed": 2,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "fad49287-f661-4dcd-b395-a368e4aecdbf"
                 }
