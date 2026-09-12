@@ -24,21 +24,6 @@
       "id": "a1998feb-c1f3-4791-aa66-92bc02646ce6"
     },
     {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 0.3
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": false
-      },
-      "id": "b2eba901-e8f4-434f-a8cf-5db770195a78"
-    },
-    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -64,6 +49,13 @@
         "__comment": false
       },
       "id": "8b9d7bba-11d8-44af-b401-e6a640a1870b"
+    },
+    {
+      "command": "EVENT_HIDE_SPRITES",
+      "args": {
+        "__collapse": true
+      },
+      "id": "b5f08ea8-7ad9-4e83-87e1-e79a99571e8e"
     },
     {
       "command": "EVENT_INC_VALUE",

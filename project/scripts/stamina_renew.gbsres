@@ -1,0 +1,43 @@
+{
+  "_resourceType": "script",
+  "id": "d81cdde6-0744-4877-8990-cf742dcc96ff",
+  "name": "Stamina_Renew",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_18",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "5",
+              "__collapse": true
+            },
+            "id": "ca17d0a8-2a79-45ad-a477-0fac1cbc6e46"
+          }
+        ],
+        "false": []
+      },
+      "id": "de955499-a74f-443f-a26f-6b33d38b7469"
+    }
+  ]
+}

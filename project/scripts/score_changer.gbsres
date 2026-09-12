@@ -23,7 +23,7 @@
       "args": {
         "variable": "V0",
         "choices": 15,
-        "__collapseCase0": true,
+        "__collapseCase0": false,
         "__collapseCase1": true,
         "__collapseCase2": true,
         "__collapseCase3": true,
@@ -50,7 +50,7 @@
               "actorId": "1",
               "spriteStateId": "1",
               "loopAnim": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "1f646dea-5a4f-4cf3-ab20-fda6fbb427a7"
           }

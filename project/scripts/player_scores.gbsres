@@ -75,7 +75,7 @@
         },
         "$actor[0]$": "0",
         "$actor[1]$": "1",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "0799ae43-6f85-4638-b108-5bac5c331d9a"
     },

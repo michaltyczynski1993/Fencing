@@ -40,11 +40,6 @@
       "id": "0e3f235c-030c-424d-82b3-6c6f482acb47__L0",
       "name": "Opponent_Attack_Wait_Duration",
       "symbol": "var_opponent_attack_wait_du"
-    },
-    {
-      "id": "5",
-      "name": "Opponent_Attack_Wait_Duration",
-      "symbol": "var_opponent_attack_wait_du_0"
     }
   ],
   "constants": []

@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "f1cc6450-736c-4eed-82f1-2b0a0ddfa5ed",
+  "name": "Stanmina_Renew",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_17",
+  "script": [
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "5",
+              "__collapse": true
+            },
+            "id": "60a7c902-2601-4358-8dcb-8b0aef7095fc"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c9b0edbf-9f43-4933-acbd-6a870290f4fe",
+              "__collapse": true
+            },
+            "id": "eb08a3b5-80f3-49a6-80c3-76a2827d2820"
+          }
+        ]
+      },
+      "id": "77370eb0-a9c9-403d-a56a-9c2067ae7846"
+    }
+  ]
+}
