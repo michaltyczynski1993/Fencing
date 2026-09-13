@@ -55,11 +55,11 @@
     },
     {
       "id": "plat_walk_vel",
-      "value": 1720
+      "value": 1843
     },
     {
       "id": "plat_walk_acc",
-      "value": 81
+      "value": 163
     },
     {
       "id": "PROJECTILES_COLLISION_SPREAD",

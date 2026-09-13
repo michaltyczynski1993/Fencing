@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "86b39e4f-914a-4df1-bb98-d59c94d25be0",
+  "id": "b008c345-b2cf-4dc0-978b-e68420b0672a",
   "name": "Enemy_Score_Actor",
   "frame": 0,
   "animate": false,
@@ -25,7 +25,7 @@
       }
     }
   },
-  "symbol": "actor_2",
+  "symbol": "actor_5",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -33,8 +33,8 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 11,
-  "y": 6,
+  "x": 16,
+  "y": 12,
   "notes": "Licznik punktów dla Enemy. Korzysta z Player_Score_actor (prefab) gdyż funkcjonalność jest taka sama jak dla gracza",
   "_index": 2
 }

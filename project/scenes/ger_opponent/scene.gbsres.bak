@@ -3,7 +3,7 @@
   "id": "53855e1f-ae59-4c4e-87c8-5b8f9138d98a",
   "_index": 9,
   "name": "GER_Opponent",
-  "backgroundId": "612d7b79-04c4-4178-a428-3ecc10360349",
+  "backgroundId": "e814355f-9ccf-465e-bdda-73341fa9b52f",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,8 +11,8 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "15e379a1-8876-45fa-8f72-efd2975a6171",
-    "",
-    "",
+    "75eb99a1-98c7-4e4f-839a-66441176de92",
+    "e4f7fd2e-70ac-42ed-b0e0-66f09284e9e3",
     "",
     "",
     "",
@@ -20,7 +20,7 @@
     ""
   ],
   "spritePaletteIds": [],
-  "collisions": "00154+0f14+",
+  "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
   "x": 456,
@@ -79,7 +79,7 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 0.2,
+        "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
         "__collapse": false,

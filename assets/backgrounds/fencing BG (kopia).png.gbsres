@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e814355f-9ccf-465e-bdda-73341fa9b52f",
+  "name": "fencing BG (kopia)",
+  "symbol": "bg_fencing_bg_kopia_",
+  "tileColors": "014+008+017+00!016+005+01f+005+013+00!01a+007+012+00!011c+02b+019+02b+019+02b+015+00!013+00!017+00!016+002+0164+8114+003c+",
+  "filename": "fencing BG (kopia).png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

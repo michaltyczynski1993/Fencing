@@ -33,8 +33,8 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 16,
-  "y": 12,
+  "x": 11,
+  "y": 6,
   "notes": "Licznik punktów dla Enemy. Korzysta z Player_Score_actor (prefab) gdyż funkcjonalność jest taka sama jak dla gracza",
   "_index": 2
 }

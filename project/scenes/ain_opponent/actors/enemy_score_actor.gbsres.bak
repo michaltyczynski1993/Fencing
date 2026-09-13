@@ -36,5 +36,5 @@
   "x": 16,
   "y": 12,
   "notes": "Licznik punktów dla Enemy. Korzysta z Player_Score_actor (prefab) gdyż funkcjonalność jest taka sama jak dla gracza",
-  "_index": 3
+  "_index": 2
 }

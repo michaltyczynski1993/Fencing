@@ -3,7 +3,7 @@
   "id": "f558455a-8913-4014-90d7-8244c3ea6be5",
   "_index": 6,
   "name": "GB_Opponent",
-  "backgroundId": "612d7b79-04c4-4178-a428-3ecc10360349",
+  "backgroundId": "e814355f-9ccf-465e-bdda-73341fa9b52f",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,8 +11,8 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "15e379a1-8876-45fa-8f72-efd2975a6171",
-    "",
-    "",
+    "75eb99a1-98c7-4e4f-839a-66441176de92",
+    "e4f7fd2e-70ac-42ed-b0e0-66f09284e9e3",
     "",
     "",
     "",
@@ -50,6 +50,18 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": true
+      },
+      "id": "9e663217-1116-4b40-b8d5-bbfbe1658980"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
         "variable": "0",
         "value": {
           "type": "number",
@@ -82,7 +94,7 @@
         "duration": 0.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -106,6 +118,29 @@
         "__collapse": true
       },
       "id": "4ff2b3b4-448c-41bd-972a-6707ad717d0c"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 2.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d81cdde6-0744-4877-8990-cf742dcc96ff",
+              "__collapse": true
+            },
+            "id": "ea5574e9-3d7f-4063-94ea-3e06473aab17"
+          }
+        ]
+      },
+      "id": "5d3b126c-1e78-46fe-846c-c9047fe1b9a9"
     }
   ],
   "playerHit1Script": [

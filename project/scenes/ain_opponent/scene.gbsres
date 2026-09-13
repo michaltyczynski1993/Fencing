@@ -3,7 +3,7 @@
   "id": "0e3f235c-030c-424d-82b3-6c6f482acb47",
   "_index": 0,
   "name": "AIN Opponent",
-  "backgroundId": "612d7b79-04c4-4178-a428-3ecc10360349",
+  "backgroundId": "e814355f-9ccf-465e-bdda-73341fa9b52f",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,8 +11,8 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "15e379a1-8876-45fa-8f72-efd2975a6171",
-    "",
-    "",
+    "75eb99a1-98c7-4e4f-839a-66441176de92",
+    "e4f7fd2e-70ac-42ed-b0e0-66f09284e9e3",
     "",
     "",
     "",
@@ -138,7 +138,7 @@
         "duration": 2.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
