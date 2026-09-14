@@ -1,0 +1,39 @@
+{
+  "_resourceType": "script",
+  "id": "de6de788-035e-4f0e-96bc-d0871da1f801",
+  "name": "Block_Tutorial_Dialogue",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_20",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 7,
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "adf60156-3734-4b7c-8da9-6fb321153336",
+        "text": [
+          "Great!",
+          "Right now\nit's time to\npractise some\nblocking!",
+          "Press B to perform\nblock!"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "1464d694-d110-4cdd-8e17-b580ec19038e"
+    }
+  ]
+}

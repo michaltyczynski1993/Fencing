@@ -1,0 +1,84 @@
+{
+  "_resourceType": "script",
+  "id": "9f88f282-1e73-4c73-b1e4-f0c4e0e297fb",
+  "name": "Tutorial_Finish_Line_Rule",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_22",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 7,
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "adf60156-3734-4b7c-8da9-6fb321153336",
+        "text": [
+          "Did I mention\nabout red line \nbehind you?",
+          "No? Okay :)",
+          "Stepping off the \nred end line with \nboth feet awards \n1 point to your \nopponent."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "f7eedc0b-4489-4990-b57b-0ac66c4939c3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 7,
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "adf60156-3734-4b7c-8da9-6fb321153336",
+        "text": [
+          "Now you know \neverything about\ndueling! Have fun!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "0a007518-6562-4110-8ae9-badc7ece1ce6"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ba13ea05-07e3-4bea-862c-269cf1efed90",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "right",
+        "fadeSpeed": 4
+      },
+      "id": "aaf1d500-e32e-4411-8040-c9572a17770f"
+    }
+  ]
+}

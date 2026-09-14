@@ -1,0 +1,154 @@
+{
+  "_resourceType": "actor",
+  "id": "8fbf4fa9-592a-4733-a2a6-53049f25a9ed",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0f137c8e-8d5f-424b-9a43-7cfa10d3fb0d",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "2",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_16",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "6",
+        "__collapse": true
+      },
+      "id": "0fe2b7b7-75f0-4294-9836-9710b2db173a"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "c70d2463-4f67-4eb9-aabc-30de9f9cc12e",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 10,
+        "__collapse": true
+      },
+      "id": "dd626fad-ce5e-4539-8cf7-fc73d6bc6cce"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "6",
+        "choices": 4,
+        "__collapseCase0": true,
+        "__collapseCase1": true,
+        "__collapseCase2": true,
+        "__collapseCase3": false,
+        "__collapseCase4": false,
+        "__collapseCase5": false,
+        "__collapseCase6": false,
+        "__collapseCase7": false,
+        "__collapseCase8": false,
+        "__collapseCase9": false,
+        "__collapseCase10": false,
+        "__collapseCase11": false,
+        "__collapseCase12": false,
+        "__collapseCase13": false,
+        "__collapseCase14": false,
+        "__collapseCase15": false,
+        "__collapseElse": false,
+        "value0": {
+          "type": "number",
+          "value": 0
+        },
+        "value1": {
+          "type": "number",
+          "value": 1
+        },
+        "value2": {
+          "type": "number",
+          "value": 2
+        },
+        "value3": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": false
+      },
+      "children": {
+        "true0": [],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "28bb414b-740b-4948-8c69-287f71c140f6",
+              "spriteStateId": "1",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "73c70866-5848-4732-8e87-beaf4d89a580"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "28bb414b-740b-4948-8c69-287f71c140f6",
+              "spriteStateId": "2",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "1f60e7a9-0796-4e53-9636-7eb1c304c4e4"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "28bb414b-740b-4948-8c69-287f71c140f6",
+              "spriteStateId": "3",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "b328ffdc-e72e-49d9-b428-e7dc63d64431"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "de6de788-035e-4f0e-96bc-d0871da1f801",
+              "__collapse": true
+            },
+            "id": "50da1cac-a633-4663-aacf-779984c2c225"
+          }
+        ],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "273479af-edd4-424d-91a6-a0643790da37"
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 12,
+  "y": 16,
+  "_index": 0
+}

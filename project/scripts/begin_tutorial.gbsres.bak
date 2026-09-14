@@ -1,0 +1,44 @@
+{
+  "_resourceType": "script",
+  "id": "7af9d5b4-6fa3-4941-89da-0d09e9aff39b",
+  "name": "Begin_Tutorial",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_19",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 10,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 8,
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "adf60156-3734-4b7c-8da9-6fb321153336",
+        "text": [
+          "Hello brave\nFencer!",
+          "Right now it's\ntime to learn\nhow to duel.",
+          "The objective is \nto score 5 or 15 \npoints before \nyour opponent.",
+          "You gain a point \neach time ",
+          "you \nsuccessfully land \na valid touch on \nthe opponent's body",
+          "by performing an \nattack or \na counter-attack.",
+          "Time for some \npractise!\nHit target 3 times\nby pressing A \nbutton."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "__collapse": false
+      },
+      "id": "8c07c503-f303-4aba-95de-e2fad17d689e"
+    }
+  ]
+}

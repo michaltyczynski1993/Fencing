@@ -50,6 +50,18 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": true
+      },
+      "id": "b561ef5d-4ac5-470b-8caa-58ec4b907a76"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
         "variable": "0",
         "value": {
           "type": "number",
@@ -82,7 +94,7 @@
         "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -106,6 +118,29 @@
         "__collapse": true
       },
       "id": "a58a0932-a558-479b-a429-ba76210a3d73"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 2.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d81cdde6-0744-4877-8990-cf742dcc96ff",
+              "__collapse": true
+            },
+            "id": "2860026b-8b92-411b-8482-dc1eb710dce8"
+          }
+        ]
+      },
+      "id": "eb4ecbfc-b511-4d52-8fc3-f40b4f57bef6"
     }
   ],
   "playerHit1Script": [

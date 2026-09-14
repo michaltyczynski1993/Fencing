@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2347a8bc-a2f3-487d-863b-ec911f703ace",
+  "name": "fencing BG_Tutorial",
+  "symbol": "bg_fencing_bg_kolejna_kopia",
+  "tileColors": "018+003+0111+003+019+00b+013+003+013+002+0112+00!014+00b+017+02b+002+017+029+00!02!00!016+002+02b+01a+002+014+004+014+002+0151+0010+0117+003c+",
+  "filename": "fencing BG_Tutorial.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
