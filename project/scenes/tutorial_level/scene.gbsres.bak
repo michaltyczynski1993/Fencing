@@ -3,7 +3,7 @@
   "id": "a0b459a1-28cb-4019-ab16-6e105189ba85",
   "_index": 10,
   "name": "Tutorial_Level",
-  "backgroundId": "e814355f-9ccf-465e-bdda-73341fa9b52f",
+  "backgroundId": "2347a8bc-a2f3-487d-863b-ec911f703ace",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -20,7 +20,7 @@
     ""
   ],
   "spritePaletteIds": [],
-  "collisions": "00154+0f14+",
+  "collisions": "00126+0f!0013+0f!0013+0f!005+0f14+",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
   "x": 264,
