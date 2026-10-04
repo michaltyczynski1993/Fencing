@@ -29,7 +29,7 @@
     "",
     ""
   ],
-  "collisions": "",
+  "collisions": "00154+0f14+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 456,
@@ -62,9 +62,9 @@
         "variable": "5",
         "value": {
           "type": "number",
-          "value": 2
+          "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "c517bc3e-5049-41f1-8964-98b5bf6f6fc9"
     },

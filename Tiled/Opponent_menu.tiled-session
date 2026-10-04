@@ -8,9 +8,12 @@
             "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 101.25,
+                "x": 76.875,
                 "y": 85.5
             }
+        },
+        "Opponent Menu.tmx#BG_CHOOSE_MENU": {
+            "scaleInDock": 1
         },
         "Opponent Menu.tmx#Choose opponent- menu": {
             "scaleInDock": 2

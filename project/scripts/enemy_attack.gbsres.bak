@@ -3,13 +3,7 @@
   "id": "c3cab2a2-3c9f-4d44-adae-df7c0eae725f",
   "name": "Enemy_Attack",
   "description": "",
-  "variables": {
-    "V0": {
-      "id": "V0",
-      "name": "Wait_Duration",
-      "passByReference": true
-    }
-  },
+  "variables": {},
   "actors": {
     "0": {
       "id": "0",
@@ -100,8 +94,8 @@
             "command": "EVENT_WAIT",
             "args": {
               "time": {
-                "type": "variable",
-                "value": "V0"
+                "type": "number",
+                "value": 0.1
               },
               "frames": {
                 "type": "number",

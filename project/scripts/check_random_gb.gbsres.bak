@@ -81,7 +81,7 @@
                 "value": 16
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -104,7 +104,7 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
-                    "__collapse": true,
+                    "__collapse": false,
                     "$actor[0]$": "0",
                     "$variable[V0]$": {
                       "type": "number",
@@ -135,7 +135,7 @@
               "operator": "<=",
               "distance": {
                 "type": "number",
-                "value": 2
+                "value": 3
               },
               "otherActorId": "$self$",
               "__collapseElse": false,

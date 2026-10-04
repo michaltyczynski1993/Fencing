@@ -5,7 +5,7 @@
   "startY": 16,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
-  "startDirection": "up",
+  "startDirection": "right",
   "showCollisionExtraTiles": false,
   "showCollisionTileValues": false,
   "collisionLayerOpacity": 80,

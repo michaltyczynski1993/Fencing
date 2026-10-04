@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e278e165-7962-4cfd-892b-090ddadb7c4c",
+  "name": "BG_Main_Menu",
+  "symbol": "bg_bg_main_menu",
+  "tileColors": "019+002+01b+00!012+006+01b+00!01!00!012+005+014+002+017+002+01a+00!016+00b+018+02b+002+015+002+02b+002+01!002+012+002+02b+015+00!012+004+013+005+0112+002+015+00!0123+00!0112+004+015+006+012+004+0119+003c+",
+  "filename": "BG_Main_Menu.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

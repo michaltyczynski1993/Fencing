@@ -3,7 +3,7 @@
   "id": "ea8bb0c9-4a01-478a-a66f-4d4cf890fb8e",
   "name": "Player Won Screen",
   "symbol": "bg_player_won_screen",
-  "tileColors": "00168+",
+  "tileColors": "",
   "filename": "Player Won Screen.png",
   "width": 20,
   "height": 18,

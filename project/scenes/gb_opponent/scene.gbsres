@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "f558455a-8913-4014-90d7-8244c3ea6be5",
-  "_index": 6,
+  "_index": 5,
   "name": "GB_Opponent",
   "backgroundId": "e814355f-9ccf-465e-bdda-73341fa9b52f",
   "tilesetId": "",
@@ -53,9 +53,9 @@
         "variable": "5",
         "value": {
           "type": "number",
-          "value": 2
+          "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "9e663217-1116-4b40-b8d5-bbfbe1658980"
     },

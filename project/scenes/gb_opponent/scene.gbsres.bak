@@ -53,9 +53,9 @@
         "variable": "5",
         "value": {
           "type": "number",
-          "value": 2
+          "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "9e663217-1116-4b40-b8d5-bbfbe1658980"
     },
@@ -126,7 +126,7 @@
         "duration": 2.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [

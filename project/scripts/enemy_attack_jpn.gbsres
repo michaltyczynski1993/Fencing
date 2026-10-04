@@ -101,7 +101,7 @@
                 "type": "number",
                 "value": 1
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "2ba1355a-4ad8-4159-8b6c-ccf9b891e86d"
           },

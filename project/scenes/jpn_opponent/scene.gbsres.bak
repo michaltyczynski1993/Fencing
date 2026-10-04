@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "69552058-8ad8-4454-ad85-e4e2f9841030",
-  "_index": 8,
+  "_index": 7,
   "name": "JPN_Opponent",
   "backgroundId": "e814355f-9ccf-465e-bdda-73341fa9b52f",
   "tilesetId": "",
@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "15e379a1-8876-45fa-8f72-efd2975a6171",
-    "e4f7fd2e-70ac-42ed-b0e0-66f09284e9e3",
+    "75eb99a1-98c7-4e4f-839a-66441176de92",
     "e4f7fd2e-70ac-42ed-b0e0-66f09284e9e3",
     "",
     "",
@@ -53,7 +53,7 @@
         "variable": "5",
         "value": {
           "type": "number",
-          "value": 2
+          "value": 1
         },
         "__collapse": true
       },
@@ -126,7 +126,7 @@
         "duration": 2.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [

@@ -121,7 +121,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "d761688e-6433-4e4c-85fe-b92496564a64"
           }
