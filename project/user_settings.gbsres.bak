@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 237.49998474121094,
-  "worldScrollY": 954.9999389648438,
-  "zoom": 157.5,
+  "worldScrollX": 559.1666259765625,
+  "worldScrollY": 1403.333251953125,
+  "zoom": 237,
   "navigatorSplitSizes": [
     133,
     203,
@@ -20,7 +20,8 @@
     "EVENT_TEXT",
     "EVENT_SWITCH_SCENE",
     "EVENT_IF::EVENT_IF_VALUE",
-    "EVENT_CALL_CUSTOM_EVENT"
+    "EVENT_CALL_CUSTOM_EVENT",
+    "EVENT_SET_VALUE"
   ],
   "debuggerEnabled": true,
   "debuggerScriptType": "editor",

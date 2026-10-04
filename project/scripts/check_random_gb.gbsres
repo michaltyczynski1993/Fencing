@@ -110,26 +110,59 @@
               ],
               "false": [
                 {
-                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
                   "args": {
-                    "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
-                    "__collapse": true,
-                    "$actor[0]$": "0",
-                    "$variable[V0]$": {
+                    "actorId": "0",
+                    "operator": "<=",
+                    "distance": {
                       "type": "number",
-                      "value": -1
-                    }
+                      "value": 3
+                    },
+                    "otherActorId": "$self$",
+                    "__collapseElse": false
                   },
-                  "id": "615a4ab2-aeea-4d20-b684-873bf1cc7009"
-                },
-                {
-                  "command": "EVENT_CALL_CUSTOM_EVENT",
-                  "args": {
-                    "customEventId": "c3cab2a2-3c9f-4d44-adae-df7c0eae725f",
-                    "$actor[0]$": "0",
-                    "__collapse": true
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
+                          "__collapse": true,
+                          "$actor[0]$": "0",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": -2
+                          }
+                        },
+                        "id": "3de8c1b3-15dc-47da-8fde-81c3cc7d5e0b"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "c3cab2a2-3c9f-4d44-adae-df7c0eae725f",
+                          "$actor[0]$": "0",
+                          "__collapse": true
+                        },
+                        "id": "d3bf36cd-abf5-4af4-9937-7d4a6b2078f6"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
+                          "__collapse": true,
+                          "$actor[0]$": "0",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": -1
+                          }
+                        },
+                        "id": "615a4ab2-aeea-4d20-b684-873bf1cc7009"
+                      }
+                    ]
                   },
-                  "id": "78f14d83-c460-461d-9156-c8288d08bd8c"
+                  "id": "88b5d91b-7bc4-4183-a807-4b5675cf814d"
                 }
               ]
             },
@@ -177,10 +210,22 @@
                           "$actor[0]$": "0",
                           "$variable[V0]$": {
                             "type": "number",
-                            "value": -1
+                            "value": -2
                           }
                         },
                         "id": "52180002-cfef-4347-9f19-d5b73b327715"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "2",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          },
+                          "__collapse": true
+                        },
+                        "id": "31528990-2e12-4880-a10a-1b27c0956f09"
                       },
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -232,7 +277,7 @@
                           "__collapse": true,
                           "$variable[V0]$": {
                             "type": "number",
-                            "value": -3
+                            "value": -2
                           }
                         },
                         "id": "166f38cd-7b23-4da3-bacb-f7420d6fcbff"

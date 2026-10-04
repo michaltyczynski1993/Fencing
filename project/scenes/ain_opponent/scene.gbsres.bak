@@ -64,7 +64,7 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "c517bc3e-5049-41f1-8964-98b5bf6f6fc9"
     },
