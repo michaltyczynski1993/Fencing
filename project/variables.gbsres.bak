@@ -32,6 +32,16 @@
       "symbol": "var_stamina_value"
     },
     {
+      "id": "6",
+      "name": "Tutorial_Attack_Target_Points",
+      "symbol": "var_tutorial_attack_target_"
+    },
+    {
+      "id": "7",
+      "name": "Tutorial_Block_Target_Points",
+      "symbol": "var_tutorial_block_target_p"
+    },
+    {
       "id": "ba13ea05-07e3-4bea-862c-269cf1efed90__L0",
       "name": "Choice",
       "symbol": "var_choice_0"
@@ -47,14 +57,9 @@
       "symbol": "var_opponent_attack_wait_du"
     },
     {
-      "id": "6",
-      "name": "Tutorial_Attack_Target_Points",
-      "symbol": "var_tutorial_attack_target_"
-    },
-    {
-      "id": "7",
-      "name": "Tutorial_Block_Target_Points",
-      "symbol": "var_tutorial_block_target_p"
+      "id": "8",
+      "name": "Enemy_Action_Choose",
+      "symbol": "var_enemy_action_choose"
     }
   ],
   "constants": []

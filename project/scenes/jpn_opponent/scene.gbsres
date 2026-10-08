@@ -72,6 +72,18 @@
       "id": "7a3954de-12b3-4ff7-9ed4-b88eb3a96c7d"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "57be4641-d6e9-4d20-a2bd-1f307f9c815e"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "c15008d1-5abc-419b-b64a-1535ff724545",
@@ -126,7 +138,7 @@
         "duration": 2.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [

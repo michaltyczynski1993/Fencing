@@ -10,12 +10,12 @@
   "type": "POINTNCLICK",
   "colorModeOverride": "none",
   "paletteIds": [
-    "default-bg-1",
+    "",
     "efbc1077-1198-48e7-ba5b-cb546c0d016f",
     "84c4891a-3f25-4360-8372-91673d90ab29",
     "69c8ba04-de6b-4ab9-bf6f-5ddf1b8d553c",
     "",
-    "",
+    "ec158e4e-f2d4-4c20-bdf8-f920d50e4b29",
     "",
     ""
   ],
@@ -65,6 +65,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "playerSpriteSheetId": "e0ff4389-eb0f-4e9c-8a5a-7272ae5033a0",
   "autoFadeEventCollapse": true
 }

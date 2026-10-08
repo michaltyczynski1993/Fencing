@@ -1,0 +1,10 @@
+{
+  "_resourceType": "note",
+  "id": "55ede6e2-36bc-489d-818f-3d705cb0b3b1",
+  "name": "Note -> General",
+  "x": 120,
+  "y": 576,
+  "width": 37,
+  "height": 12,
+  "content": "1. Konieczność zmiany wszystkich Check Random\n1.1. Zmiana Random i Switch z Enemy_state na Enemy_Actotion_Choose\n2. Konieczność zmiany wszystkich warunków player x tiles from Actor\n2.1. Pierwszy w warunku musi być Player a drugi Actor A"
+}

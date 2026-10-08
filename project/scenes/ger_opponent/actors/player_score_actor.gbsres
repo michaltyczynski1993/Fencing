@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "2887c381-0cdc-47b4-98ef-26592bf1e8b4",
+  "id": "8750de51-3029-4213-a3d6-3bac0c48b3f7",
   "name": "Player_Score_Actor",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_25",
   "script": [],
   "startScript": [
     {
@@ -28,7 +28,7 @@
         },
         "$actor[1]$": "$self$"
       },
-      "id": "41fd6ea5-25d8-4d67-ac62-57bc2545bed9"
+      "id": "dc3f5e79-05d4-44ba-a2da-880fc68b83f3"
     }
   ],
   "updateScript": [],

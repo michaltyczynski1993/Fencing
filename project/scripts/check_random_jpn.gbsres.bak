@@ -15,15 +15,15 @@
     {
       "command": "EVENT_VARIABLE_MATH",
       "args": {
-        "vectorX": "2",
+        "vectorX": "8",
         "operation": "set",
         "other": "rnd",
         "vectorY": "0",
         "value": "0",
-        "minValue": 1,
-        "maxValue": 2,
+        "minValue": 0,
+        "maxValue": 1,
         "clamp": false,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "448b624a-f73f-47ca-a218-694e0135ba43"
     },
@@ -45,7 +45,7 @@
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "2",
+        "variable": "8",
         "choices": 2,
         "__collapseCase0": false,
         "__collapseCase1": false,
@@ -64,7 +64,15 @@
         "__collapseCase14": false,
         "__collapseCase15": false,
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": false,
+        "value0": {
+          "type": "number",
+          "value": 0
+        },
+        "value1": {
+          "type": "number",
+          "value": 1
+        }
       },
       "children": {
         "true0": [
@@ -86,35 +94,93 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
                   "args": {
-                    "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
-                    "__collapse": true,
-                    "$actor[0]$": "0",
-                    "$variable[V0]$": {
+                    "actorId": "0",
+                    "operator": "<=",
+                    "distance": {
                       "type": "number",
-                      "value": -1
-                    }
+                      "value": 3
+                    },
+                    "otherActorId": "$self$",
+                    "__collapseElse": true,
+                    "__collapse": false
                   },
-                  "id": "e0c0966d-99d8-4bbf-9669-0beb1772be5a"
-                },
-                {
-                  "command": "EVENT_CALL_CUSTOM_EVENT",
-                  "args": {
-                    "customEventId": "c184c400-4d86-478c-843a-9570b9df39e0",
-                    "__collapse": true,
-                    "$actor[0]$": "0"
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
+                          "__collapse": true,
+                          "$actor[0]$": "0",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": -2
+                          }
+                        },
+                        "id": "e0c0966d-99d8-4bbf-9669-0beb1772be5a"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "2",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          },
+                          "__collapse": true
+                        },
+                        "id": "d0815aef-666c-4058-af76-36ecf003213d"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "c184c400-4d86-478c-843a-9570b9df39e0",
+                          "__collapse": true,
+                          "$actor[0]$": "0"
+                        },
+                        "id": "cceecc18-bb20-41a9-a0c4-0765b9761008"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "2",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          },
+                          "__collapse": true
+                        },
+                        "id": "ac978d2c-a241-45cd-bae1-3df95c420157"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "c184c400-4d86-478c-843a-9570b9df39e0",
+                          "__collapse": true,
+                          "$actor[0]$": "0"
+                        },
+                        "id": "4b089925-d7c0-4560-937f-2f0d3076ff6f"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
+                          "__collapse": true,
+                          "$actor[0]$": "0",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": -3
+                          }
+                        },
+                        "id": "433af3b8-97f3-4623-8577-fa879b0b82e8"
+                      }
+                    ]
                   },
-                  "id": "cceecc18-bb20-41a9-a0c4-0765b9761008"
-                },
-                {
-                  "command": "EVENT_CALL_CUSTOM_EVENT",
-                  "args": {
-                    "customEventId": "c184c400-4d86-478c-843a-9570b9df39e0",
-                    "__collapse": true,
-                    "$actor[0]$": "0"
-                  },
-                  "id": "4b089925-d7c0-4560-937f-2f0d3076ff6f"
+                  "id": "f7f14547-032b-4dc1-83d8-82437f2c744d"
                 }
               ],
               "false": [
@@ -125,7 +191,7 @@
                     "operator": "<=",
                     "distance": {
                       "type": "number",
-                      "value": 2
+                      "value": 3
                     },
                     "otherActorId": "$self$",
                     "__collapseElse": false
@@ -140,10 +206,22 @@
                           "$actor[0]$": "0",
                           "$variable[V0]$": {
                             "type": "number",
-                            "value": -1
+                            "value": -3
                           }
                         },
                         "id": "a8fda3ea-3a50-4af4-b1c1-e22974884c7f"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "2",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          },
+                          "__collapse": true
+                        },
+                        "id": "6ebee5cf-2daa-4b8d-b337-eecbfb643c86"
                       },
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -186,7 +264,7 @@
               "operator": "<=",
               "distance": {
                 "type": "number",
-                "value": 2
+                "value": 3
               },
               "otherActorId": "$self$",
               "__collapseElse": false,
@@ -217,7 +295,7 @@
                           "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
                           "$variable[V0]$": {
                             "type": "number",
-                            "value": -1
+                            "value": -3
                           },
                           "$actor[0]$": "0",
                           "__collapse": true
@@ -247,6 +325,18 @@
                       }
                     ],
                     "false": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "2",
+                          "value": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "__collapse": true
+                        },
+                        "id": "b57702bf-ee0e-4a72-87f6-cd208e179e11"
+                      },
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
                         "args": {

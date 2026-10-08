@@ -15,15 +15,15 @@
     {
       "command": "EVENT_VARIABLE_MATH",
       "args": {
-        "vectorX": "2",
+        "vectorX": "8",
         "operation": "set",
         "other": "rnd",
         "vectorY": "0",
         "value": "0",
-        "minValue": 1,
-        "maxValue": 2,
+        "minValue": 0,
+        "maxValue": 1,
         "clamp": false,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "b98cda8a-c61f-45e3-9bae-7255b41eb4c8"
     },
@@ -45,7 +45,7 @@
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "2",
+        "variable": "8",
         "choices": 2,
         "__collapseCase0": false,
         "__collapseCase1": false,
@@ -66,6 +66,10 @@
         "__collapseElse": true,
         "__collapse": false,
         "value0": {
+          "type": "number",
+          "value": 0
+        },
+        "value1": {
           "type": "number",
           "value": 1
         }
@@ -92,13 +96,13 @@
                 {
                   "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
                   "args": {
-                    "actorId": "0",
+                    "actorId": "player",
                     "operator": "<=",
                     "distance": {
                       "type": "number",
                       "value": 2
                     },
-                    "otherActorId": "player",
+                    "otherActorId": "0",
                     "__collapseElse": false,
                     "__collapse": false
                   },
@@ -116,6 +120,18 @@
                           "__collapse": true
                         },
                         "id": "1963bbc6-8eea-499c-8425-22eb23565a23"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "2",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          },
+                          "__collapse": true
+                        },
+                        "id": "4b002d9a-b8b1-42c2-a432-e3ae627dc773"
                       },
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -150,13 +166,13 @@
                 {
                   "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
                   "args": {
-                    "actorId": "0",
+                    "actorId": "player",
                     "operator": "<=",
                     "distance": {
                       "type": "number",
                       "value": 2
                     },
-                    "otherActorId": "$self$",
+                    "otherActorId": "0",
                     "__collapseElse": false,
                     "__collapse": false
                   },
@@ -170,10 +186,22 @@
                             "type": "number",
                             "value": -2
                           },
-                          "__collapse": false,
+                          "__collapse": true,
                           "$actor[0]$": "0"
                         },
                         "id": "1bf62317-7a9a-4825-b9bd-5d939e4da49b"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "2",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          },
+                          "__collapse": true
+                        },
+                        "id": "15e00871-8b2b-44f3-b39e-35c843818833"
                       },
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -192,7 +220,7 @@
                           "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
                           "$variable[V0]$": {
                             "type": "number",
-                            "value": -2
+                            "value": -1
                           },
                           "__collapse": true,
                           "$actor[0]$": "0"
@@ -228,18 +256,31 @@
                 {
                   "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
                   "args": {
-                    "actorId": "0",
+                    "actorId": "player",
                     "operator": "<=",
                     "distance": {
                       "type": "number",
-                      "value": 1
+                      "value": 2
                     },
-                    "otherActorId": "$self$",
+                    "otherActorId": "0",
                     "__collapseElse": false,
                     "__collapse": false
                   },
                   "children": {
                     "true": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": -1
+                          },
+                          "__collapse": true,
+                          "$actor[0]$": "0"
+                        },
+                        "id": "de4134ce-1398-4cf6-86e8-3bb7f51f751d"
+                      },
                       {
                         "command": "EVENT_SET_VALUE",
                         "args": {
@@ -266,13 +307,12 @@
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
                         "args": {
-                          "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
+                          "customEventId": "c1109bfe-1df8-40f0-911b-e58f13e4b0ce",
                           "$actor[0]$": "0",
                           "$variable[V0]$": {
                             "type": "number",
-                            "value": -1
-                          },
-                          "__collapse": true
+                            "value": 1
+                          }
                         },
                         "id": "a7f84d37-dfb0-4fdb-845c-ca2b451ce905"
                       }
@@ -285,17 +325,45 @@
                 {
                   "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
                   "args": {
-                    "actorId": "0",
+                    "actorId": "player",
                     "operator": "<=",
                     "distance": {
                       "type": "number",
                       "value": 1
                     },
-                    "otherActorId": "$self$",
+                    "otherActorId": "0",
                     "__collapseElse": false
                   },
                   "children": {
                     "true": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "c1109bfe-1df8-40f0-911b-e58f13e4b0ce",
+                          "$actor[0]$": "0",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "__collapse": true
+                        },
+                        "id": "18cc15fa-83af-45cc-81c7-7d43e38c0d82"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": -2
+                          },
+                          "$actor[0]$": "0",
+                          "__collapse": true
+                        },
+                        "id": "e994c6b9-b41b-4b1c-8581-9c9a412859e3"
+                      },
                       {
                         "command": "EVENT_SET_VALUE",
                         "args": {
@@ -311,47 +379,10 @@
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
                         "args": {
-                          "customEventId": "c184c400-4d86-478c-843a-9570b9df39e0",
-                          "$actor[0]$": "0",
-                          "__collapse": true
+                          "customEventId": "c3cab2a2-3c9f-4d44-adae-df7c0eae725f",
+                          "$actor[0]$": "0"
                         },
                         "id": "50a14dc3-4b16-4692-8312-0ae61817b658"
-                      }
-                    ],
-                    "false": [
-                      {
-                        "command": "EVENT_CALL_CUSTOM_EVENT",
-                        "args": {
-                          "customEventId": "6c2231ba-ed4d-46bc-8cdc-ece42feaa7b1",
-                          "$variable[V0]$": {
-                            "type": "number",
-                            "value": -3
-                          },
-                          "$actor[0]$": "0",
-                          "__collapse": true
-                        },
-                        "id": "f99739b6-e424-4db9-af41-015a9760d48a"
-                      },
-                      {
-                        "command": "EVENT_SET_VALUE",
-                        "args": {
-                          "variable": "2",
-                          "value": {
-                            "type": "number",
-                            "value": 1
-                          },
-                          "__collapse": true
-                        },
-                        "id": "1dda565c-ed4b-45b9-8cdb-92d50fe12d7a"
-                      },
-                      {
-                        "command": "EVENT_CALL_CUSTOM_EVENT",
-                        "args": {
-                          "customEventId": "c184c400-4d86-478c-843a-9570b9df39e0",
-                          "$actor[0]$": "0",
-                          "__collapse": true
-                        },
-                        "id": "24900e06-9fb1-4ac8-bebd-86a41621e0b1"
                       }
                     ]
                   },
